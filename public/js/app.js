@@ -2054,16 +2054,6 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./resources/js/app.js":
-/*!*****************************!*\
-  !*** ./resources/js/app.js ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-
-/***/ }),
-
 /***/ "./resources/js/bootstrap.js":
 /*!***********************************!*\
   !*** ./resources/js/bootstrap.js ***!
@@ -19312,16 +19302,6 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 /***/ }),
 
-/***/ "./resources/css/app.css":
-/*!*******************************!*\
-  !*** ./resources/css/app.css ***!
-  \*******************************/
-/***/ (() => {
-
-throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):\nSyntaxError: Unexpected token (42:4)\n    at _class.pp$4.raise (D:\\frontend\\htdocs\\Repositories\\GitProjects\\Frontend--ClassofMBA\\node_modules\\acorn\\dist\\acorn.js:2927:15)\n    at _class.pp.unexpected (D:\\frontend\\htdocs\\Repositories\\GitProjects\\Frontend--ClassofMBA\\node_modules\\acorn\\dist\\acorn.js:698:10)\n    at _class.pp.expect (D:\\frontend\\htdocs\\Repositories\\GitProjects\\Frontend--ClassofMBA\\node_modules\\acorn\\dist\\acorn.js:692:28)\n    at _class.pp$3.parseObj (D:\\frontend\\htdocs\\Repositories\\GitProjects\\Frontend--ClassofMBA\\node_modules\\acorn\\dist\\acorn.js:2563:14)\n    at _class.pp$3.parseExprAtom (D:\\frontend\\htdocs\\Repositories\\GitProjects\\Frontend--ClassofMBA\\node_modules\\acorn\\dist\\acorn.js:2302:19)\n    at _class.parseExprAtom (D:\\frontend\\htdocs\\Repositories\\GitProjects\\Frontend--ClassofMBA\\node_modules\\acorn-node\\lib\\dynamic-import\\index.js:77:117)\n    at _class.pp$3.parseExprSubscripts (D:\\frontend\\htdocs\\Repositories\\GitProjects\\Frontend--ClassofMBA\\node_modules\\acorn\\dist\\acorn.js:2129:21)\n    at _class.pp$3.parseMaybeUnary (D:\\frontend\\htdocs\\Repositories\\GitProjects\\Frontend--ClassofMBA\\node_modules\\acorn\\dist\\acorn.js:2106:19)\n    at _class.parseMaybeUnary (D:\\frontend\\htdocs\\Repositories\\GitProjects\\Frontend--ClassofMBA\\node_modules\\acorn-node\\lib\\private-class-elements\\index.js:122:54)\n    at _class.pp$3.parseExprOps (D:\\frontend\\htdocs\\Repositories\\GitProjects\\Frontend--ClassofMBA\\node_modules\\acorn\\dist\\acorn.js:2041:21)\n    at processResult (D:\\frontend\\htdocs\\Repositories\\GitProjects\\Frontend--ClassofMBA\\node_modules\\webpack\\lib\\NormalModule.js:758:19)\n    at D:\\frontend\\htdocs\\Repositories\\GitProjects\\Frontend--ClassofMBA\\node_modules\\webpack\\lib\\NormalModule.js:860:5\n    at D:\\frontend\\htdocs\\Repositories\\GitProjects\\Frontend--ClassofMBA\\node_modules\\loader-runner\\lib\\LoaderRunner.js:400:11\n    at D:\\frontend\\htdocs\\Repositories\\GitProjects\\Frontend--ClassofMBA\\node_modules\\loader-runner\\lib\\LoaderRunner.js:252:18\n    at context.callback (D:\\frontend\\htdocs\\Repositories\\GitProjects\\Frontend--ClassofMBA\\node_modules\\loader-runner\\lib\\LoaderRunner.js:124:13)\n    at Object.loader (D:\\frontend\\htdocs\\Repositories\\GitProjects\\Frontend--ClassofMBA\\node_modules\\postcss-loader\\dist\\index.js:142:7)");
-
-/***/ }),
-
 /***/ "./node_modules/process/browser.js":
 /*!*****************************************!*\
   !*** ./node_modules/process/browser.js ***!
@@ -19579,12 +19559,14 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 	})();
 /******/ 	
 /************************************************************************/
-/******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	__webpack_require__("./resources/js/app.js");
-/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
-/******/ 	var __webpack_exports__ = __webpack_require__("./resources/css/app.css");
-/******/ 	
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+(() => {
+/*!*****************************!*\
+  !*** ./resources/js/app.js ***!
+  \*****************************/
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+})();
+
 /******/ })()
 ;

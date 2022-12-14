@@ -1,0 +1,62 @@
+.btn-md {
+  border-radius: 8px;
+  padding: 5px 15px;
+}
+
+.primary_bg {
+  background: #1B4541;
+}
+
+.secondary-bg {
+  background: #FF7A07;
+}
+
+.fade-blue {
+  background-color: #E1FEFB;
+}
+
+.me-50 {
+  margin-right: 50px;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.text_secondary {
+  color: #FF7A07 !important;
+}
+
+.py-60 {
+  padding: 60px 0px 60px 0px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: #272727;
+}
+
+.navbar .nav-item .nav-link {
+  color: #272727;
+  font-weight: 600;
+}
+
+.navbar .nav-head {
+  background-color: #E1FEFB;
+}
+/*# sourceMappingURL=style.css.map */

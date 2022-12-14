@@ -1,0 +1,38 @@
+// custom classes
+.btn-md {
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+
+.primary_bg {
+    background: $primary;
+}
+
+.secondary-bg {
+    background: $secondary;
+}
+
+.fade-blue {
+    background-color: $fade_blue;
+}
+
+.me-50 {
+    margin-right: 50px;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.text_secondary {
+    color: $secondary !important;
+}
+
+.py-60 {
+    padding: 60px 0px 60px 0px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
