@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="Group_13767" data-name="Group 13767" transform="translate(-435 -591)">
+    <rect id="Rectangle_953" data-name="Rectangle 953" width="56" height="56" rx="8" transform="translate(435 591)" fill="#f0f8fd"/>
+    <g id="wallet" transform="translate(448.307 604.311)">
+      <g id="Group_10572" data-name="Group 10572" transform="translate(0.003 0)">
+        <g id="Group_10571" data-name="Group 10571" transform="translate(0 0)">
+          <path id="Path_5159" data-name="Path 5159" d="M27.379,24.038H22.7a5.342,5.342,0,1,1,0-10.683h4.674a.667.667,0,0,0,.668-.668v-2a2.665,2.665,0,0,0-2.458-2.649l-3.835-6.7A2.643,2.643,0,0,0,18.128.36L4.983,8.013H2.674A2.673,2.673,0,0,0,0,10.684V26.709a2.673,2.673,0,0,0,2.671,2.671h22.7a2.673,2.673,0,0,0,2.671-2.671v-2A.667.667,0,0,0,27.379,24.038Zm-4.8-18.566,1.455,2.541h-5.82ZM7.637,8.013,18.8,1.514a1.291,1.291,0,0,1,.992-.134,1.309,1.309,0,0,1,.8.62V2L10.273,8.013Z" transform="translate(-0.003 0)" fill="#1b4541"/>
+          <path id="Path_5160" data-name="Path 5160" d="M307.35,234.674h-4.674a4.006,4.006,0,0,0,0,8.012h4.674a2.005,2.005,0,0,0,2-2v-4.006A2.005,2.005,0,0,0,307.35,234.674Zm-4.674,5.342a1.335,1.335,0,1,1,1.335-1.335A1.337,1.337,0,0,1,302.676,240.016Z" transform="translate(-279.974 -219.984)" fill="#1b4541"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

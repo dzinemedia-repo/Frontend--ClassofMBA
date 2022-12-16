@@ -24,6 +24,11 @@
   font-weight: bold;
 }
 
+.sub-heading {
+  font-size: 30px;
+  font-weight: 700;
+}
+
 .text_secondary {
   color: #FF7A07 !important;
 }
@@ -34,6 +39,13 @@
 
 .font-18 {
   font-size: 18px;
+}
+
+.feature-card {
+  border-radius: 0px 25px 25px 25px;
+  -webkit-box-shadow: 0px 0px 14px #0000000D;
+          box-shadow: 0px 0px 14px #0000000D;
+  padding: 20px;
 }
 
 body {
