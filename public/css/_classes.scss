@@ -5,11 +5,11 @@
 }
 
 .primary_bg {
-    background: $primary;
+    background: $primary_shade;
 }
 
 .secondary-bg {
-    background: $secondary;
+    background: $secondary_shade;
 }
 
 .fade-blue {
@@ -21,17 +21,22 @@
 }
 
 .heading {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
 .sub-heading {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 700;
 }
 
+.card-hd {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
 .text_secondary {
-    color: $secondary !important;
+    color: $secondary_shade !important;
 }
 
 .py-60 {
@@ -46,4 +51,24 @@
     border-radius: 0px 25px 25px 25px;
     box-shadow: 0px 0px 14px #0000000D;
     padding: 20px;
+    background-color: #fff;
+}
+
+.mt_-80px {
+    margin-top: -5rem;
+}
+
+.pb-100 {
+    padding-bottom: 6.25rem !important;
+}
+
+.hover_btn {
+    border: 1px solid $primary_shade;
+    &:hover {
+        background-color: #fff;
+        color: $text_primary !important;
+        img {
+            filter: brightness(0) saturate(100%) invert(20%) sepia(22%) saturate(1159%) hue-rotate(125deg) brightness(94%) contrast(87%);
+        }
+    }
 }

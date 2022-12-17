@@ -9,6 +9,16 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0;
+    margin: 0 !important;
     color: $text_primary;
+}
+
+p {
+    margin: 0 !important;
+}
+
+.btn,
+.form-control {
+    box-shadow: unset !important;
+    outline: 0 !important;
 }
