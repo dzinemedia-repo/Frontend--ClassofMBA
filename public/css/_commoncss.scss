@@ -11,14 +11,36 @@ h5,
 h6 {
     margin: 0 !important;
     color: $text_primary;
+    font-family: sofiaPro_bold;
 }
 
 p {
     margin: 0 !important;
+    font-family: sofia_Regular;
 }
 
 .btn,
 .form-control {
     box-shadow: unset !important;
     outline: 0 !important;
+}
+
+@font-face {
+    font-family: sofia_Regular;
+    src: url(../assets/font/sofia_Regular.otf);
+}
+
+@font-face {
+    font-family: sofiaPro_semibold;
+    src: url(../assets/font/sofiaPro_semibold.otf);
+}
+
+@font-face {
+    font-family: sofiaPro_bold;
+    src: url(../assets/font/Sofia_Bold.otf);
+}
+
+@font-face {
+    font-family: sofiaPro_light;
+    src: url(../assets/font/sofiaPro_light.otf);
 }

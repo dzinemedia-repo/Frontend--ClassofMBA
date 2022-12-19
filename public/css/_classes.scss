@@ -1,15 +1,19 @@
 // custom classes
 .btn-md {
     border-radius: 8px;
-    padding: 5px 15px;
+    padding: 10px 15px !important;
 }
 
 .primary_bg {
     background: $primary_shade;
 }
 
+.bg-grey {
+    background-color: $fade_grey;
+}
+
 .secondary-bg {
-    background: $secondary_shade;
+    background: $secondary_shade !important;
 }
 
 .fade-blue {
@@ -39,6 +43,10 @@
     color: $secondary_shade !important;
 }
 
+.text-primary {
+    color: $primary_shade !important;
+}
+
 .py-60 {
     padding: 60px 0px 60px 0px;
 }
@@ -47,9 +55,32 @@
     font-size: 18px;
 }
 
+.font-20 {
+    font-size: 20px !important;
+}
+
+.font-13 {
+    font-size: 13px;
+}
+
+.font_36 {
+    font-size: 36px;
+}
+
+.font_11 {
+    font-size: 11px;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.equal_shadow {
+    box-shadow: 0px 0px 14px #0000000D;
+}
+
 .feature-card {
     border-radius: 0px 25px 25px 25px;
-    box-shadow: 0px 0px 14px #0000000D;
     padding: 20px;
     background-color: #fff;
 }
@@ -60,6 +91,22 @@
 
 .pb-100 {
     padding-bottom: 6.25rem !important;
+}
+
+.p-8-10 {
+    padding: 8px 10px !important;
+}
+
+.arrows_rotation {
+    transform: rotate(180deg);
+    transition: transform 1s linear;
+}
+
+.myform {
+    background-color: #F6F6F6 !important;
+    border: none;
+    font-size: 16px;
+    color: #787878 !important;
 }
 
 .hover_btn {

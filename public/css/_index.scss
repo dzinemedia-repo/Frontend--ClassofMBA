@@ -1,0 +1,25 @@
+.calculator {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D5D5D5;
+    border-radius: 8px;
+    position: relative;
+    /* folding */
+    .fold::before {
+        content: "";
+        position: absolute;
+        top: -1px;
+        right: -1px;
+        border-style: solid;
+        border-width: 0 30px 30px 0;
+        border-color: #344 #fff;
+        transition: all ease 0.5s;
+    }
+    // .fold:hover::before {
+    //     border-width: 0 150px 150px 0;
+    //     border-color: #344 #fff;
+    // }
+    label {
+        font-family: sofiaPro_semibold;
+        margin-bottom: 10px;
+    }
+}
