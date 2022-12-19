@@ -14,10 +14,10 @@
         border-color: #344 #fff;
         transition: all ease 0.5s;
     }
-    // .fold:hover::before {
-    //     border-width: 0 150px 150px 0;
-    //     border-color: #344 #fff;
-    // }
+    .fold:hover::before {
+        border-width: 0 150px 150px 0;
+        border-color: #344 #fff;
+    }
     label {
         font-family: sofiaPro_semibold;
         margin-bottom: 10px;
