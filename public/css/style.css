@@ -24,6 +24,50 @@
   margin-bottom: 10px;
 }
 
+.Guranties-list li {
+  position: relative;
+  margin-bottom: 12px;
+  margin-left: 24px;
+}
+
+.Guranties-list li::before {
+  content: url(../assets/icons/roundedtick.svg);
+  position: absolute;
+  left: -26px;
+  top: 3px;
+}
+
+.Our-Gurantie-board {
+  border: 10px solid #1B4541;
+  border-radius: 12px;
+  background-color: #1B4541;
+}
+.Our-Gurantie-board .wrapper {
+  border: 2px solid #1B4541;
+  border-radius: 12px;
+  padding: 25px;
+  background-color: #fff;
+}
+
+.advantages-card {
+  background-color: #fff;
+}
+.advantages-card .header {
+  padding: 5px;
+}
+
+.team-card-body ul li {
+  background-color: #F6F6F6;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 7px;
+}
+
+.advantages-bg {
+  background-image: url(../assets/images/Greenlayers.png);
+  background-size: cover;
+}
+
 .btn-md {
   border-radius: 8px;
   padding: 10px 15px !important;
@@ -35,6 +79,18 @@
 
 .bg-grey {
   background-color: #F6F6F6;
+}
+
+.faded-red-bg {
+  background-color: #FFFBF7;
+}
+
+.bg-fade-grey {
+  background-color: #F5F5F5;
+}
+
+.rounded-11 {
+  border-radius: 11px;
 }
 
 .secondary-bg {
@@ -76,6 +132,10 @@
   padding: 60px 0px 60px 0px;
 }
 
+.py-40 {
+  padding: 40px 0px 40px 0px;
+}
+
 .font-18 {
   font-size: 18px;
 }
@@ -88,6 +148,10 @@
   font-size: 13px;
 }
 
+.font-14 {
+  font-size: 14px;
+}
+
 .font_36 {
   font-size: 36px;
 }
@@ -96,12 +160,24 @@
   font-size: 11px;
 }
 
+.font_50 {
+  font-size: 50px;
+}
+
+.font_21 {
+  font-size: 21px;
+}
+
 .semi-bold {
   font-weight: 600;
 }
 
 .equal_shadow {
   box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.0509803922);
+}
+
+.bg-fade-green {
+  background-color: #E8FFFD;
 }
 
 .feature-card {
@@ -163,6 +239,10 @@ h6 {
 
 p {
   margin: 0 !important;
+  font-family: sofia_Regular;
+}
+
+li {
   font-family: sofia_Regular;
 }
 

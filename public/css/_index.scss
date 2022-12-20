@@ -23,3 +23,51 @@
         margin-bottom: 10px;
     }
 }
+
+// our Guranties
+.Guranties-list li {
+    position: relative;
+    margin-bottom: 12px;
+    margin-left: 24px;
+}
+
+.Guranties-list li::before {
+    content: url(../assets/icons/roundedtick.svg);
+    position: absolute;
+    left: -26px;
+    top: 3px;
+}
+
+.Our-Gurantie-board {
+    border: 10px solid $primary_shade;
+    border-radius: 12px;
+    background-color: $primary_shade;
+    .wrapper {
+        border: 2px solid $primary_shade;
+        border-radius: 12px;
+        padding: 25px;
+        background-color: #fff;
+    }
+}
+
+.advantages-card {
+    background-color: #fff;
+    .header {
+        padding: 5px;
+    }
+}
+
+.team-card-body {
+    ul li {
+        background-color: #F6F6F6;
+        padding: 5px;
+        border-radius: 4px;
+        margin-bottom: 7px;
+    }
+}
+
+// advantages
+.advantages-bg {
+    background-image: url(../assets/images/Greenlayers.png);
+    background-size: cover;
+}
