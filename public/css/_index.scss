@@ -1,73 +1,107 @@
-.calculator {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #D5D5D5;
-    border-radius: 8px;
-    position: relative;
-    /* folding */
-    .fold::before {
-        content: "";
-        position: absolute;
-        top: -1px;
-        right: -1px;
-        border-style: solid;
-        border-width: 0 30px 30px 0;
-        border-color: #344 #fff;
-        transition: all ease 0.5s;
-    }
-    .fold:hover::before {
-        border-width: 0 150px 150px 0;
-        border-color: #344 #fff;
-    }
-    label {
-        font-family: sofiaPro_semibold;
-        margin-bottom: 10px;
-    }
-}
-
-// our Guranties
-.Guranties-list li {
-    position: relative;
-    margin-bottom: 12px;
-    margin-left: 24px;
-}
-
-.Guranties-list li::before {
-    content: url(../assets/icons/roundedtick.svg);
-    position: absolute;
-    left: -26px;
-    top: 3px;
-}
-
-.Our-Gurantie-board {
-    border: 10px solid $primary_shade;
-    border-radius: 12px;
-    background-color: $primary_shade;
-    .wrapper {
-        border: 2px solid $primary_shade;
-        border-radius: 12px;
-        padding: 25px;
-        background-color: #fff;
-    }
-}
-
-.advantages-card {
-    background-color: #fff;
-    .header {
-        padding: 5px;
-    }
-}
-
-.team-card-body {
-    ul li {
-        background-color: #F6F6F6;
-        padding: 5px;
-        border-radius: 4px;
-        margin-bottom: 7px;
-    }
-}
-
-// advantages
-.advantages-bg {
-    background-image: url(../assets/images/Greenlayers.png);
-    background-size: cover;
-}
+        .calculator {
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #D5D5D5;
+            border-radius: 8px;
+            position: relative;
+            /* folding */
+            .fold::before {
+                content: "";
+                position: absolute;
+                top: -1px;
+                right: -1px;
+                border-style: solid;
+                border-width: 0 30px 30px 0;
+                border-color: #344 #fff;
+                transition: all ease 0.5s;
+            }
+            .fold:hover::before {
+                border-width: 0 150px 150px 0;
+                border-color: #344 #fff;
+            }
+            label {
+                font-family: sofiaPro_semibold;
+                margin-bottom: 10px;
+            }
+        }
+        
+        // our Guranties
+        .Guranties-list li {
+            position: relative;
+            margin-bottom: 12px;
+            margin-left: 24px;
+        }
+        
+        .Guranties-list li::before {
+            content: url(../assets/icons/roundedtick.svg);
+            position: absolute;
+            left: -26px;
+            top: 3px;
+        }
+        
+        .Our-Gurantie-board {
+            border: 10px solid $primary_shade;
+            border-radius: 12px;
+            background-color: $primary_shade;
+            .wrapper {
+                border: 2px solid $primary_shade;
+                border-radius: 12px;
+                padding: 25px;
+                background-color: #fff;
+            }
+        }
+        
+        .advantages-card {
+            background-color: #fff;
+            .header {
+                padding: 5px;
+            }
+        }
+        
+        .team-card {
+            border: 1px solid #F1F1F1;
+            box-shadow: 0px 0px 11px #1D242417;
+            border-radius: 12px;
+            .team-card-body {
+                ul li {
+                    background-color: #F6F6F6;
+                    padding: 5px;
+                    border-radius: 4px;
+                    margin-bottom: 7px;
+                }
+            }
+        }
+        
+        // advantages
+        .advantages-bg {
+            background-image: url(../assets/images/Greenlayers.png);
+            background-size: cover;
+        }
+        
+        .owl-carousel .owl-prev {
+            height: 50px;
+            width: 25px;
+            cursor: pointer;
+            position: absolute;
+            top: 50% !important;
+            left: -73px;
+        }
+        
+        .owl-carousel .owl-next {
+            height: 50px;
+            width: 25px;
+            cursor: pointer;
+            position: absolute;
+            top: 50% !important;
+            right: 0;
+            right: -73px;
+        }
+        
+        .owl-item.active.center {
+            transform: scale(1.3);
+            transition: all 0.3s ease-in-out;
+            z-index: 99999;
+        }
+        
+        .owl-stage-outer {
+            padding: 100px 0px 100px 0px;
+        }
