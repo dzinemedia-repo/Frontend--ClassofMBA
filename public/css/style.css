@@ -73,33 +73,131 @@
   background-size: cover;
 }
 
-.owl-carousel .owl-prev {
-  height: 50px;
-  width: 25px;
-  cursor: pointer;
-  position: absolute;
-  top: 50% !important;
-  left: -73px;
-}
-
-.owl-carousel .owl-next {
-  height: 50px;
-  width: 25px;
-  cursor: pointer;
-  position: absolute;
-  top: 50% !important;
-  right: 0;
-  right: -73px;
-}
-
 .owl-item.active.center {
   transform: scale(1.3);
   transition: all 0.3s ease-in-out;
   z-index: 99999;
 }
 
-.owl-stage-outer {
-  padding: 100px 0px 100px 0px;
+.assist-tag {
+  height: 44px;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  padding: 15px;
+  margin-right: 12px;
+  margin-bottom: 20px;
+}
+.assist-tag a {
+  font-family: sofia_medium;
+  text-decoration: none !important;
+  color: unset;
+}
+.assist-tag a::before {
+  content: url("../assets/icons/ticktag.svg");
+  margin-right: 10px;
+}
+
+.review_slider {
+  background-color: #FFFBF5;
+}
+.review_slider .review_erapper {
+  border: 1px solid #D5D5D5;
+  border-radius: 8px !important;
+}
+.review_slider .review_item {
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.0784313725);
+  border-radius: 8px !important;
+  position: relative;
+}
+.review_slider .review_item::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  right: -3px;
+  border-style: solid;
+  border-width: 0 35px 31px 0;
+  border-color: #fff #FFFBF5;
+  transition: all ease 0.5s;
+  box-shadow: -3px 4px 4px rgba(0, 0, 0, 0.08);
+}
+.review_slider .review_item ul li {
+  background-color: #F6F6F6;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.review_slider .review_item ul li span {
+  font-size: 14px;
+}
+.review_slider .review_item ul li p {
+  font-weight: 700;
+}
+.review_slider .owl-stage-outer {
+  padding-top: 50px;
+}
+
+.customer_review_slider {
+  background-color: #F5F5F5;
+}
+.customer_review_slider .owl-stage-outer {
+  padding: 60px 0px 60px 0px;
+}
+.customer_review_slider .customer_review_item {
+  background-color: #fff;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.0784313725);
+  position: relative;
+}
+.customer_review_slider .customer_review_item p {
+  font-size: 14px;
+}
+.customer_review_slider .customer_review_item::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #fff;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid transparent;
+  right: 322px;
+  bottom: -19px;
+}
+.customer_review_slider .owl-stage-outer .owl-stage .center .customer_review_item {
+  background-color: #1B4541;
+  color: #fff !important;
+  border-radius: 8px !important;
+}
+.customer_review_slider .owl-stage-outer .owl-stage .center .customer_review_item::after {
+  border-top: 10px solid #1B4541;
+  border-left: 10px solid #1B4541;
+}
+.customer_review_slider .owl-dot span {
+  width: 22px !important;
+  height: 4px !important;
+  border-radius: 2px;
+}
+.customer_review_slider .owl-theme .owl-dots .owl-dot.active span,
+.customer_review_slider .owl-theme .owl-dots span {
+  background: #1B4541;
+}
+.customer_review_slider .review_footer {
+  display: flex;
+}
+.customer_review_slider .review_footer span {
+  font-family: sofia_medium;
+}
+.customer_review_slider .review_footer p {
+  font-size: 10px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background-color: unset !important;
 }
 
 .btn-md {
@@ -295,6 +393,10 @@ li {
   src: url(../assets/font/sofiaPro_semibold.otf);
 }
 @font-face {
+  font-family: sofia_medium;
+  src: url(../assets/font/sofia_medium.otf);
+}
+@font-face {
   font-family: sofiaPro_bold;
   src: url(../assets/font/Sofia_Bold.otf);
 }
@@ -362,8 +464,37 @@ li {
     box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.0509803922);
     padding: 10px 7px;
   }
-  .owl-carousel .owl-prev,
-.owl-next {
-    display: none !important;
+  .owl-nav {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .owl-nav .owl-prev {
+    margin-right: 20px !important;
+  }
+  .assist-tag {
+    width: 226px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .owl-stage-outer {
+    padding: 100px 0px 100px 0px;
+  }
+  .owl-carousel .owl-prev {
+    height: 50px;
+    width: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 50% !important;
+    left: -73px;
+  }
+  .owl-carousel .owl-next {
+    height: 50px;
+    width: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 50% !important;
+    right: 0;
+    right: -73px;
   }
 }/*# sourceMappingURL=style.css.map */
