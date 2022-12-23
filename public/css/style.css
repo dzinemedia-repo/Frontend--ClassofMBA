@@ -200,6 +200,26 @@
   background-color: unset !important;
 }
 
+.order_Now {
+  background-image: url("../assets/images/ordernowbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 10px 10px 10px;
+}
+
+.order_Now_section {
+  position: relative;
+}
+.order_Now_section .banner {
+  position: absolute;
+  top: 3px;
+}
+
+.footer_section {
+  background-color: #E8FFFD;
+}
+
 .btn-md {
   border-radius: 8px;
   padding: 10px 15px !important;
@@ -258,6 +278,10 @@
 
 .text-primary {
   color: #1B4541 !important;
+}
+
+.py-100 {
+  padding: 100px 0px 100px 0px;
 }
 
 .py-60 {

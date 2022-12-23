@@ -982,7 +982,6 @@
             </div>
         </div>
     </section>
-
     {{-- customer review slider --}}
     <section class="py-40 customer_review_slider">
         <div class="container">
@@ -992,134 +991,176 @@
             </div>
             <div class="col-lg-12 mx-auto">
                 <div class="owl-three owl-carousel owl-theme">
-             <div>
-                <div class="customer_review_item">
-                    <div class="review_erapper border-0  p-3">
-                        <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt Ut
-                            Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo Duo
-                            Dolores Et Ea Rebum.</p>
-                        <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
-                        <p>5.0/4.9</p>
+                    <div>
+                        <div class="customer_review_item">
+                            <div class="review_erapper border-0  p-3">
+                                <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt
+                                    Ut
+                                    Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo
+                                    Duo
+                                    Dolores Et Ea Rebum.</p>
+                                <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
+                                <p>5.0/4.9</p>
+                            </div>
+                        </div>
+                        <div class="p-3 review_footer mt-3">
+                            <img src="assets/images/customerimg.svg" alt="customerimg">
+                            <div class="ms-3">
+                                <span>Melly Brown</span>
+                                <p>CS-2042877 Assignment Writing On Strategy</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="p-3 review_footer mt-3">
-                    <img src="assets/images/customerimg.svg" alt="customerimg">
-                    <div class="ms-3">
-                        <span>Melly Brown</span>
-                        <p>CS-2042877 Assignment Writing On Strategy</p>
+                    <div>
+                        <div class="customer_review_item">
+                            <div class="review_erapper border-0  p-3">
+                                <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt
+                                    Ut
+                                    Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo
+                                    Duo
+                                    Dolores Et Ea Rebum.</p>
+                                <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
+                                <p>5.0/4.9</p>
+                            </div>
+                        </div>
+                        <div class="p-3 review_footer mt-3">
+                            <img src="assets/images/customerimg.svg" alt="customerimg">
+                            <div class="ms-3">
+                                <span>Melly Brown</span>
+                                <p>CS-2042877 Assignment Writing On Strategy</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-             </div>
-             <div>
-                <div class="customer_review_item">
-                    <div class="review_erapper border-0  p-3">
-                        <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt Ut
-                            Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo Duo
-                            Dolores Et Ea Rebum.</p>
-                        <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
-                        <p>5.0/4.9</p>
+                    <div>
+                        <div class="customer_review_item">
+                            <div class="review_erapper border-0  p-3">
+                                <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt
+                                    Ut
+                                    Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo
+                                    Duo
+                                    Dolores Et Ea Rebum.</p>
+                                <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
+                                <p>5.0/4.9</p>
+                            </div>
+                        </div>
+                        <div class="p-3 review_footer mt-3">
+                            <img src="assets/images/customerimg.svg" alt="customerimg">
+                            <div class="ms-3">
+                                <span>Melly Brown</span>
+                                <p>CS-2042877 Assignment Writing On Strategy</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="p-3 review_footer mt-3">
-                    <img src="assets/images/customerimg.svg" alt="customerimg">
-                    <div class="ms-3">
-                        <span>Melly Brown</span>
-                        <p>CS-2042877 Assignment Writing On Strategy</p>
+                    <div>
+                        <div class="customer_review_item">
+                            <div class="review_erapper border-0  p-3">
+                                <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt
+                                    Ut
+                                    Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo
+                                    Duo
+                                    Dolores Et Ea Rebum.</p>
+                                <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
+                                <p>5.0/4.9</p>
+                            </div>
+                        </div>
+                        <div class="p-3 review_footer mt-3">
+                            <img src="assets/images/customerimg.svg" alt="customerimg">
+                            <div class="ms-3">
+                                <span>Melly Brown</span>
+                                <p>CS-2042877 Assignment Writing On Strategy</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-             </div>
-             <div>
-                <div class="customer_review_item">
-                    <div class="review_erapper border-0  p-3">
-                        <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt Ut
-                            Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo Duo
-                            Dolores Et Ea Rebum.</p>
-                        <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
-                        <p>5.0/4.9</p>
+                    <div>
+                        <div class="customer_review_item">
+                            <div class="review_erapper border-0  p-3">
+                                <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt
+                                    Ut
+                                    Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo
+                                    Duo
+                                    Dolores Et Ea Rebum.</p>
+                                <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
+                                <p>5.0/4.9</p>
+                            </div>
+                        </div>
+                        <div class="p-3 review_footer mt-3">
+                            <img src="assets/images/customerimg.svg" alt="customerimg">
+                            <div class="ms-3">
+                                <span>Melly Brown</span>
+                                <p>CS-2042877 Assignment Writing On Strategy</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="p-3 review_footer mt-3">
-                    <img src="assets/images/customerimg.svg" alt="customerimg">
-                    <div class="ms-3">
-                        <span>Melly Brown</span>
-                        <p>CS-2042877 Assignment Writing On Strategy</p>
+                    <div>
+                        <div class="customer_review_item">
+                            <div class="review_erapper border-0  p-3">
+                                <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt
+                                    Ut
+                                    Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo
+                                    Duo
+                                    Dolores Et Ea Rebum.</p>
+                                <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
+                                <p>5.0/4.9</p>
+                            </div>
+                        </div>
+                        <div class="p-3 review_footer mt-3">
+                            <img src="assets/images/customerimg.svg" alt="customerimg">
+                            <div class="ms-3">
+                                <span>Melly Brown</span>
+                                <p>CS-2042877 Assignment Writing On Strategy</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-             </div>
-             <div>
-                <div class="customer_review_item">
-                    <div class="review_erapper border-0  p-3">
-                        <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt Ut
-                            Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo Duo
-                            Dolores Et Ea Rebum.</p>
-                        <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
-                        <p>5.0/4.9</p>
+                    <div>
+                        <div class="customer_review_item">
+                            <div class="review_erapper border-0  p-3">
+                                <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt
+                                    Ut
+                                    Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo
+                                    Duo
+                                    Dolores Et Ea Rebum.</p>
+                                <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
+                                <p>5.0/4.9</p>
+                            </div>
+                        </div>
+                        <div class="p-3 review_footer mt-3">
+                            <img src="assets/images/customerimg.svg" alt="customerimg">
+                            <div class="ms-3">
+                                <span>Melly Brown</span>
+                                <p>CS-2042877 Assignment Writing On Strategy</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="p-3 review_footer mt-3">
-                    <img src="assets/images/customerimg.svg" alt="customerimg">
-                    <div class="ms-3">
-                        <span>Melly Brown</span>
-                        <p>CS-2042877 Assignment Writing On Strategy</p>
-                    </div>
-                </div>
-             </div>
-             <div>
-                <div class="customer_review_item">
-                    <div class="review_erapper border-0  p-3">
-                        <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt Ut
-                            Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo Duo
-                            Dolores Et Ea Rebum.</p>
-                        <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
-                        <p>5.0/4.9</p>
-                    </div>
-                </div>
-                <div class="p-3 review_footer mt-3">
-                    <img src="assets/images/customerimg.svg" alt="customerimg">
-                    <div class="ms-3">
-                        <span>Melly Brown</span>
-                        <p>CS-2042877 Assignment Writing On Strategy</p>
-                    </div>
-                </div>
-             </div>
-             <div>
-                <div class="customer_review_item">
-                    <div class="review_erapper border-0  p-3">
-                        <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt Ut
-                            Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo Duo
-                            Dolores Et Ea Rebum.</p>
-                        <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
-                        <p>5.0/4.9</p>
-                    </div>
-                </div>
-                <div class="p-3 review_footer mt-3">
-                    <img src="assets/images/customerimg.svg" alt="customerimg">
-                    <div class="ms-3">
-                        <span>Melly Brown</span>
-                        <p>CS-2042877 Assignment Writing On Strategy</p>
-                    </div>
-                </div>
-             </div>
-             <div>
-                <div class="customer_review_item">
-                    <div class="review_erapper border-0  p-3">
-                        <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt Ut
-                            Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo Duo
-                            Dolores Et Ea Rebum.</p>
-                        <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
-                        <p>5.0/4.9</p>
-                    </div>
-                </div>
-                <div class="p-3 review_footer mt-3">
-                    <img src="assets/images/customerimg.svg" alt="customerimg">
-                    <div class="ms-3">
-                        <span>Melly Brown</span>
-                        <p>CS-2042877 Assignment Writing On Strategy</p>
-                    </div>
-                </div>
-             </div>
                 </div>
             </div>
         </div>
     </section>
+    {{-- order now --}}
+    <section class="py-100 order_Now_section">
+        <div class="container order_Now p-5">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2 class="sub-heading text-white">Never Used Our Writing Service?</h2>
+                    <p class="text-white my-3">Get 5% off the first order and 10% back for the next one.</p>
+                    <button class="btn secondary-bg text-white semi-bold"> <img class="mb-1" src="assets/icons/ordernowbox.svg" alt="ordernowbox"> &nbsp;ORDER NOW</button>
+                </div>
+                <div class="col-lg-4">
+                    <img class="banner" src="assets/images/ordernowbanner.webp" alt="ordernowbanner">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-40 footer_section">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2">
+            <img src="assets/logo.svg" alt="logo">
+            <div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    </footer>
 @endsection

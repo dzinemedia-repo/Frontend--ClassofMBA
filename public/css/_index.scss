@@ -23,21 +23,21 @@
                 margin-bottom: 10px;
             }
         }
-        
+
         // our Guranties
         .Guranties-list li {
             position: relative;
             margin-bottom: 12px;
             margin-left: 24px;
         }
-        
+
         .Guranties-list li::before {
             content: url(../assets/icons/roundedtick.svg);
             position: absolute;
             left: -26px;
             top: 3px;
         }
-        
+
         .Our-Gurantie-board {
             border: 10px solid $primary_shade;
             border-radius: 12px;
@@ -49,14 +49,14 @@
                 background-color: #fff;
             }
         }
-        
+
         .advantages-card {
             background-color: #fff;
             .header {
                 padding: 5px;
             }
         }
-        
+
         .team-card {
             border: 1px solid #F1F1F1;
             box-shadow: 0px 0px 11px #1D242417;
@@ -70,19 +70,19 @@
                 }
             }
         }
-        
+
         // advantages
         .advantages-bg {
             background-image: url(../assets/images/Greenlayers.png);
             background-size: cover;
         }
-        
+
         .owl-item.active.center {
             transform: scale(1.3);
             transition: all 0.3s ease-in-out;
             z-index: 99999;
         }
-        
+
         .assist-tag {
             height: 44px;
             border: 1px solid #E1E1E1;
@@ -104,7 +104,7 @@
                 }
             }
         }
-        
+
         .review_slider {
             background-color: #FFFBF5;
             .review_erapper {
@@ -146,7 +146,7 @@
                 padding-top: 50px;
             }
         }
-        
+
         // customer review slider
         .customer_review_slider {
             background-color: #F5F5F5;
@@ -202,7 +202,28 @@
                 }
             }
         }
-        
+
         .owl-theme .owl-nav [class*=owl-]:hover {
             background-color: unset !important;
+        }
+
+        .order_Now {
+            background-image: url("../assets/images/ordernowbg.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-radius: 0px 10px 10px 10px;
+        }
+
+        .order_Now_section {
+            position: relative;
+            .banner {
+                position: absolute;
+                top: 3px;
+            }
+        }
+
+        // footer css
+        .footer_section {
+            background-color: #E8FFFD;
         }
