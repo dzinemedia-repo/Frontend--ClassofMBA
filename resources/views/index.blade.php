@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <section class="fade-blue ">
+    <section class="fade-blue navbar_section">
         <div class="container">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="#"><img src="assets/logo.svg" alt=""></a>
@@ -97,7 +97,11 @@
             <div class="row gy-4">
                 <div class="col-lg-3">
                     <div class="feature-card equal_shadow">
-                        <img src="assets/images/OrderDetails.svg" alt="OrderDetails">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <img src="assets/images/OrderDetails.svg" alt="OrderDetails">
+                            <img src="assets/icons/rightarrow.svg" alt="rightarrow">
+                         </div>
+
                         <h3 class="card-hd my-2">Order Details</h3>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
                             ut
@@ -106,18 +110,22 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="feature-card equal_shadow">
-
+                     <div class="d-flex justify-content-between align-items-center">
                         <img src="assets/images/MakePayment.svg" alt="MakePayment">
+                        <img src="assets/icons/rightarrow.svg" alt="rightarrow">
+                     </div>
+
                         <h3 class="card-hd my-2">Make Payment</h3>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                            ut
-                            labore et dolore</p>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="feature-card equal_shadow">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <img src="assets/images/TrackProgress.svg" alt="TrackProgress">
+                            <img src="assets/icons/rightarrow.svg" alt="rightarrow">
+                         </div>
 
-                        <img src="assets/images/TrackProgress.svg" alt="TrackProgress">
                         <h3 class="card-hd my-2">Track Progress</h3>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
                             ut
@@ -126,8 +134,11 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="feature-card equal_shadow">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <img src="assets/images/ReceivePaper.svg" alt="ReceivePaper">
+                            <img src="assets/icons/tickFade.svg" alt="tickFade">
+                         </div>
 
-                        <img src="assets/images/ReceivePaper.svg" alt="ReceivePaper">
                         <h3 class="card-hd my-2">Receive Paper</h3>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
                             ut
@@ -233,7 +244,7 @@
                 </div>
                 <div class="col-lg-6">
                     <h2 class="sub-heading">Here's Why you Need Our Paper Writing Help</h2>
-                    <p class="my-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                    <p class="my-3 text-lg-start text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
                         tempor invidunt ut
                         labore et dolore magna aliquyam erat, sed diam voluptua.</p>
                     <div class="row gy-5">
@@ -369,7 +380,7 @@
         </div>
     </section>
     {{-- advantages --}}
-    <section class="py-60 bg-fade-green">
+    <section class="py-60 bg-fade-green advantages">
         <div class="container">
             <h2 class="sub-heading text-center mb-5">Advantages For You To Enjoy From Our Custom Writing Services</h2>
             <div class="row gy-4">
@@ -461,7 +472,7 @@
         </div>
     </section>
     {{-- Orders Completed --}}
-    <section class="advantages-bg py-60">
+    <section class="compelete-bg py-60">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -765,7 +776,7 @@
         </div>
     </section>
     {{-- Get Assistance --}}
-    <section class=" Get_Assistance">
+    <section class="Get_Assistance py-40 pt-0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-12">
@@ -1137,30 +1148,76 @@
     </section>
     {{-- order now --}}
     <section class="py-100 order_Now_section">
-        <div class="container order_Now p-5">
+        <div class="container order_Now p-lg-5 p-3">
             <div class="row">
                 <div class="col-lg-8">
                     <h2 class="sub-heading text-white">Never Used Our Writing Service?</h2>
-                    <p class="text-white my-3">Get 5% off the first order and 10% back for the next one.</p>
-                    <button class="btn secondary-bg text-white semi-bold"> <img class="mb-1" src="assets/icons/ordernowbox.svg" alt="ordernowbox"> &nbsp;ORDER NOW</button>
+                    <p class="text-white my-3 text-lg-start text-center">Get 5% off the first order and 10% back for the next one.</p>
+                 <div class="text-lg-start text-center">
+                    <button class="btn secondary-bg text-white semi-bold"> <img class="mb-1"
+                        src="assets/icons/ordernowbox.svg" alt="ordernowbox"> &nbsp;ORDER NOW</button>
+                 </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 d-lg-block d-none">
                     <img class="banner" src="assets/images/ordernowbanner.webp" alt="ordernowbanner">
                 </div>
             </div>
         </div>
     </section>
-
     <footer class="py-40 footer_section">
-<div class="container">
-    <div class="row">
-        <div class="col-lg-2">
-            <img src="assets/logo.svg" alt="logo">
-            <div>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 d-lg-block d-none">
+                    <img src="assets/logo.svg" alt="logo">
+                    <div class="bg-white rounded-11 p-3 mt-4">
+                        <p class="semi-bold">Overall Reviews</p>
+                        <p class="font-13 font_10 my-1">Lorem ipsum dolor sit amet, consetetur</p>
+                     <div class="d-flex justify-content-between align-items-center review">
+                        <span><img src="assets/icons/reviewstarts.svg" alt="reviewstarts"></span>
+                        <span class="fw-bold rating px-3 py-2 rounded-4" style="font-size:18px; ">4.9/ <span class="font-13">5.0</span> </span>
+                     </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 d-lg-block d-none">
+                    <ul class="list-unstyled">
+                        <h5>Services</h5>
+                        <li><a href="#">Essay Writing Help</a></li>
+                        <li><a href="#">Case Study Solution</a></li>
+                        <li><a href="#">Report Writing</a></li>
+                        <li><a href="#">Dissertation</a></li>
+                        <li><a href="#">Dissertation Proposal</a></li>
+                        <li><a href="#">PPT Presentation</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 d-lg-block d-none">
+                    <ul class="list-unstyled">
+                        <li><a href="#">Coursework</a></li>
+                        <li><a href="#">Term Paper</a></li>
+                        <li><a href="#">Exam Preparation</a></li>
+                        <li><a href="#">Research Paper</a></li>
+                        <li><a href="#">Questions Solution</a></li>
+                        <li><a href="#">Assignment Writing Help</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <ul class="list-unstyled">
+                        <h5>How it Works?</h5>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Policies</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                   <h5>We Accept</h5>
+                   <img src="assets/images/paymentmethod.svg" alt="paymentmethod">
+                   <h5 class="semi-bold mt-3">Social Links</h5>
+                   <img src="assets/icons/linkedin.svg" alt="linkedin">
+                   <img class="mx-2" src="assets/icons/facebook.svg" alt="facebook">
+                   <img src="assets/icons/twitter.svg" alt="twitter">
+                </div>
             </div>
         </div>
-    </div>
-</div>
     </footer>
 @endsection

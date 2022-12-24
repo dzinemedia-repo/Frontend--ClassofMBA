@@ -68,7 +68,7 @@
   margin-bottom: 7px;
 }
 
-.advantages-bg {
+.compelete-bg {
   background-image: url(../assets/images/Greenlayers.png);
   background-size: cover;
 }
@@ -217,7 +217,29 @@
 }
 
 .footer_section {
-  background-color: #E8FFFD;
+  background-image: url("../assets/images/footerbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer_section .review .rating {
+  background-color: #F1F4F4;
+}
+.footer_section h5 {
+  font-family: sofiaPro_bold;
+  font-size: 18px;
+  margin-bottom: 16px !important;
+}
+.footer_section ul li {
+  margin-bottom: 10px;
+}
+.footer_section ul li a {
+  color: #272727 !important;
+}
+
+.advantages {
+  background-image: url("../assets/images/advanbg.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .btn-md {
@@ -245,12 +267,16 @@
   border-radius: 11px;
 }
 
+.rounded-4 {
+  border-radius: 4px;
+}
+
 .secondary-bg {
   background: #FF7A07 !important;
 }
 
 .fade-blue {
-  background-color: #E1FEFB;
+  background-color: #F5FFFE;
 }
 
 .me-50 {
@@ -310,6 +336,10 @@
 
 .font_36 {
   font-size: 36px;
+}
+
+.font_10 {
+  font-size: 10px;
 }
 
 .font_11 {
@@ -393,6 +423,10 @@ h6 {
   font-family: sofiaPro_bold;
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
   margin: 0 !important;
   font-family: sofia_Regular;
@@ -428,6 +462,11 @@ li {
   font-family: sofiaPro_light;
   src: url(../assets/font/sofiaPro_light.otf);
 }
+.navbar_section {
+  background-image: url("../assets/images/navbg.png");
+  background-size: cover;
+}
+
 .navbar .nav-item .nav-link {
   color: #272727;
   font-weight: 600;
@@ -440,7 +479,7 @@ li {
   filter: invert(50%) sepia(82%) saturate(1775%) hue-rotate(354deg) brightness(101%) contrast(104%);
 }
 .navbar .nav-head {
-  background-color: #E1FEFB;
+  background-color: #F5FFFE;
 }
 .navbar .dropdown .dropdown-toggle::after {
   display: none;
@@ -475,6 +514,14 @@ li {
   .py-60 {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+  .py-40 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .py-100 {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
   }
   .navbar {
     position: absolute;
