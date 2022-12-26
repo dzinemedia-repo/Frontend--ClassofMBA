@@ -1,67 +1,7 @@
 @extends('layouts.app')
 @section('content')
-    <section class="fade-blue navbar_section">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#"><img src="assets/logo.svg" alt=""></a>
-                <button class="navbar-toggler p-0 border-0 shadow-none" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <img src="assets/icons/humburger.svg" height="40px" width="40px" alt="humburger">
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item me-50">
-                            <a class="nav-link active pt-lg-2 pt-0" aria-current="page" href="#">HOME</a>
-                        </li>
-                        <li class="nav-item dropdown me-50 nav_drop">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false" onclick="rotate()">
-                                SERVICE <i><img class="pb-1 ms-1 nav_arrow" src="assets/icons/arrow.svg" alt="arrow"></i>
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Essay Writing Help</a></li>
-                                <li><a class="dropdown-item" href="#">Case Study Solution</a></li>
-                                <li><a class="dropdown-item" href="#">Report Writing</a></li>
-                                <li><a class="dropdown-item" href="#">Dissertation</a></li>
-                                <li><a class="dropdown-item" href="#">Dissertation Proposal</a></li>
-                                <li><a class="dropdown-item" href="#">PPT Presentation</a></li>
-                                <li><a class="dropdown-item" href="#">Coursework</a></li>
-                                <li><a class="dropdown-item" href="#">Term Paper</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown me-50 nav_drop">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false" onclick="rotate()">
-                                ABOUT US <i><img class="pb-1 ms-1 nav_arrow" src="assets/icons/arrow.svg"
-                                        alt="arrow"></i>
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">About Class of MBA</a></li>
-                                <li><a class="dropdown-item" href="#">How it Works?</a></li>
-                                <li><a class="dropdown-item" href="#">Reviews</a></li>
-                                <li><a class="dropdown-item" href="#">FAQ's</a></li>
-                                <li><a class="dropdown-item" href="#">Blog</a></li>
-                                <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                                <li><a class="dropdown-item" href="#">Honor Code</a></li>
-                                <li><a class="dropdown-item" href="#">Academic Integrity</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item me-2">
-                            <a class="nav-link secondary-bg d-inline-block text-white btn-md mb-lg-0 mb-3" href="#">
-                                <i><img src="assets/icons/login.svg" alt="ordernow"></i> LOGIN</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link primary_bg  d-inline-block  text-white btn-md" href="#"> <i><img
-                                        src="assets/icons/ordernow.svg" alt="ordernow"></i> ORDER NOW</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </section>
     {{-- hero banner --}}
-    <section class="fade-blue py-60 pb-100 pt-80">
+    <section class=" hero_banner py-60 pb-100 pt-0">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -75,18 +15,14 @@
                         <a class="btn mt-3 primary_bg text-white btn-md hover_btn" href=""> <img
                                 src="assets/icons/Quill.svg" alt="Quill"> Write My Paper</a>
                         <div class="mt-4">
-                            <img class="img-fluid" src="assets/icons/sitejabber.svg" alt="sitejabber">
-
-                            <img class="img-fluid mx-lg-4 mx-2" class="mx-4" src="assets/icons/siterating.svg"
-                                alt="siterating">
-
+                            <img class="img-fluid " src="assets/icons/siterating.svg"alt="siterating">
+                            <img class="img-fluid mx-2 mx-lg-4 " src="assets/icons/sitejabber.svg" alt="sitejabber">
                             <img class="img-fluid" src="assets/icons/truspilot.svg" alt="truspilot">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img class="img-fluid d-lg-block d-none ms-auto" src="assets/images/herobanner.webp"
-                        alt="herobanner">
+                    <img class="img-fluid d-lg-block d-none ms-auto" src="assets/images/herobanner.webp" alt="herobanner">
                 </div>
             </div>
         </div>
@@ -100,7 +36,7 @@
                         <div class="d-flex justify-content-between align-items-center">
                             <img src="assets/images/OrderDetails.svg" alt="OrderDetails">
                             <img src="assets/icons/rightarrow.svg" alt="rightarrow">
-                         </div>
+                        </div>
 
                         <h3 class="card-hd my-2">Order Details</h3>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
@@ -110,13 +46,14 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="feature-card equal_shadow">
-                     <div class="d-flex justify-content-between align-items-center">
-                        <img src="assets/images/MakePayment.svg" alt="MakePayment">
-                        <img src="assets/icons/rightarrow.svg" alt="rightarrow">
-                     </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <img src="assets/images/MakePayment.svg" alt="MakePayment">
+                            <img src="assets/icons/rightarrow.svg" alt="rightarrow">
+                        </div>
 
                         <h3 class="card-hd my-2">Make Payment</h3>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                            ut labore et dolore</p>
                     </div>
                 </div>
                 <div class="col-lg-3">
@@ -124,7 +61,7 @@
                         <div class="d-flex justify-content-between align-items-center">
                             <img src="assets/images/TrackProgress.svg" alt="TrackProgress">
                             <img src="assets/icons/rightarrow.svg" alt="rightarrow">
-                         </div>
+                        </div>
 
                         <h3 class="card-hd my-2">Track Progress</h3>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
@@ -137,7 +74,7 @@
                         <div class="d-flex justify-content-between align-items-center">
                             <img src="assets/images/ReceivePaper.svg" alt="ReceivePaper">
                             <img src="assets/icons/tickFade.svg" alt="tickFade">
-                         </div>
+                        </div>
 
                         <h3 class="card-hd my-2">Receive Paper</h3>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
@@ -165,78 +102,13 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="calculator  p-3">
-                        <div class="fold">
-
-                        </div>
-                        <h3 class="card-hd mb-2">Calculate Order Price</h3>
-                        <form action="">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <label for="">Topic</label>
-                                    <input class="form-control myform" type="text" name="" id=""
-                                        placeholder="School Life, Science etc">
-                                </div>
-                                <div class="col-lg-6">
-                                    <label for="">Subject</label>
-
-                                    <select class="form-select shadow-none myform form-select-lg mb-3"
-                                        aria-label=".form-select-lg example">
-                                        <option selected>Select Subject</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-
-
-
-                                <div class="col-lg-6">
-                                    <label for="">Deadline</label>
-
-                                    <select class="form-select shadow-none myform form-select-lg mb-3"
-                                        aria-label=".form-select-lg example">
-                                        <option selected>Select Deadline</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-
-
-                                <div class="col-lg-6">
-                                    <label for="">Approximately ~ 0 Page(s)</label>
-                                    <div class="d-flex  align-items-center">
-                                        <div class="">
-                                            <input class="form-control myform" type="text" name=""
-                                                id="" placeholder="Number of words">
-                                        </div>
-                                        <div class=" d-flex align-items-center">
-                                            <button class="btn btn-md primary_bg mx-2  text-white">Words</button>
-
-                                            <button class="btn btn-md mt-lg-0 bg-grey ">Pages</button>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <h1 class="card-hd ">Total Price</h1>
-                                    <p class="font_36 fw-bold text-primary"><sup class="font-20">$</sup>35</p>
-                                </div>
-                                <div class="text-center">
-                                    <a class="btn btn-md primary_bg text-white semi-bold" href="#">ORDER NOW</a>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-
-
+                    @include('calc')
                 </div>
             </div>
         </div>
     </section>
     {{-- why us --}}
-    <section class="why-us py-60 faded-red-bg">
+    <section class="why-us py-60">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text-center">
@@ -244,7 +116,8 @@
                 </div>
                 <div class="col-lg-6">
                     <h2 class="sub-heading">Here's Why you Need Our Paper Writing Help</h2>
-                    <p class="my-3 text-lg-start text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                    <p class="my-3 text-lg-start text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                        diam nonumy eirmod
                         tempor invidunt ut
                         labore et dolore magna aliquyam erat, sed diam voluptua.</p>
                     <div class="row gy-5">
@@ -472,752 +345,18 @@
         </div>
     </section>
     {{-- Orders Completed --}}
-    <section class="compelete-bg py-60">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="text-center">
-                        <span class="font_50 semi-bold text-white">50K+</span>
-                        <p class="font_21 text-white">Orders Completed</p>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="text-center">
-                        <span class="font_50 semi-bold text-white">343</span>
-                        <p class="font_21 text-white">Writers Online</p>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="text-center">
-                        <span class="font_50 semi-bold text-white">4.8</span>
-                        <p class="font_21 text-white">Orders Completed</p>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="text-center">
-                        <span class="font_50 semi-bold text-white">25</span>
-                        <p class="font_21 text-white">Avg.Writers Rating</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('completedproject')
     {{-- Team Of Professional Essay Writers --}}
-    <section class="py-40">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="sub-heading mb-3">Team Of Professional Essay Writers</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
-            </div>
-            <div class="col-lg-12 mx-auto">
-                <div class="owl-carousel">
-                    <div>
-                        <div class="team-card p-3">
-                            {{-- header --}}
-                            <div class="team-card-header d-flex">
-                                <img src="assets/icons/JoeGoldberg.svg" height="55px" width="55px" alt="JoeGoldberg"
-                                    style="width: 55px;">
-                                <div class="ms-3">
-                                    <p class="font-20 semi-bold">Joe Goldberg</p>
-                                    <p class="font-12">User id #54844561</p>
-                                    <span class="semi-bold font-12">4.5</span><span><img
-                                            src="assets/icons/ratingstarts.svg" alt="rating"></span>
-                                </div>
-                            </div>
-                            {{-- body --}}
-                            <div class="team-card-body">
-                                <ul class="list-unstyled mt-3">
-                                    <li> <span><img src="assets/icons/TotalOrders.svg" height="25px" width="25px"
-                                                alt="TotalOrders"> <span>Total Orders</span></span> <span
-                                            class="ms-5">5455</span></li>
-                                    <li> <span><img src="assets/icons/Reviews.svg" height="25px" width="25px"
-                                                alt="Reviews">
-                                            <span>Reviews</span></span> <span class="ms-5">5455 Reviews</span></li>
-                                    <li> <span><img src="assets/icons/Degree.svg" height="25px" width="25px"
-                                                alt="Degree">
-                                            <span>Degree</span></span> <span class="ms-5">Master</span></li>
-                                </ul>
-                            </div>
-                            {{-- footer --}}
-                            <div class="team-card-footer">
-                                <p class="semi-bold my-2">Reviews</p>
-                                <div class="bg-grey p-3 rounded-4 mb-2">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                        tempor
-                                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
-                                </div>
-                                <div class="bg-grey p-3 rounded-4">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                        tempor
-                                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="team-card p-3">
-                            {{-- header --}}
-                            <div class="team-card-header d-flex">
-                                <img src="assets/icons/JoeGoldberg.svg" height="55px" width="55px" alt="JoeGoldberg"
-                                    style="width: 55px;">
-                                <div class="ms-3">
-                                    <p class="font-20 semi-bold">Joe Goldberg</p>
-                                    <p class="font-12">User id #54844561</p>
-                                    <span class="semi-bold font-12">4.5</span><span><img
-                                            src="assets/icons/ratingstarts.svg" alt="rating"></span>
-                                </div>
-                            </div>
-                            {{-- body --}}
-                            <div class="team-card-body">
-                                <ul class="list-unstyled mt-3">
-                                    <li> <span><img src="assets/icons/TotalOrders.svg" height="25px" width="25px"
-                                                alt="TotalOrders"> <span>Total Orders</span></span> <span
-                                            class="ms-5">5455</span></li>
-                                    <li> <span><img src="assets/icons/Reviews.svg" height="25px" width="25px"
-                                                alt="Reviews">
-                                            <span>Reviews</span></span> <span class="ms-5">5455 Reviews</span></li>
-                                    <li> <span><img src="assets/icons/Degree.svg" height="25px" width="25px"
-                                                alt="Degree">
-                                            <span>Degree</span></span> <span class="ms-5">Master</span></li>
-                                </ul>
-                            </div>
-                            {{-- footer --}}
-                            <div class="team-card-footer">
-                                <p class="semi-bold my-2">Reviews</p>
-                                <div class="bg-grey p-3 rounded-4 mb-2">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                        tempor
-                                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
-                                </div>
-                                <div class="bg-grey p-3 rounded-4">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                        tempor
-                                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="team-card p-3">
-                            {{-- header --}}
-                            <div class="team-card-header d-flex">
-                                <img src="assets/icons/JoeGoldberg.svg" height="55px" width="55px" alt="JoeGoldberg"
-                                    style="width: 55px;">
-                                <div class="ms-3">
-                                    <p class="font-20 semi-bold">Joe Goldberg</p>
-                                    <p class="font-12">User id #54844561</p>
-                                    <span class="semi-bold font-12">4.5</span><span><img
-                                            src="assets/icons/ratingstarts.svg" alt="rating"></span>
-                                </div>
-                            </div>
-                            {{-- body --}}
-                            <div class="team-card-body">
-                                <ul class="list-unstyled mt-3">
-                                    <li> <span><img src="assets/icons/TotalOrders.svg" height="25px" width="25px"
-                                                alt="TotalOrders"> <span>Total Orders</span></span> <span
-                                            class="ms-5">5455</span></li>
-                                    <li> <span><img src="assets/icons/Reviews.svg" height="25px" width="25px"
-                                                alt="Reviews">
-                                            <span>Reviews</span></span> <span class="ms-5">5455 Reviews</span></li>
-                                    <li> <span><img src="assets/icons/Degree.svg" height="25px" width="25px"
-                                                alt="Degree">
-                                            <span>Degree</span></span> <span class="ms-5">Master</span></li>
-                                </ul>
-                            </div>
-                            {{-- footer --}}
-                            <div class="team-card-footer">
-                                <p class="semi-bold my-2">Reviews</p>
-                                <div class="bg-grey p-3 rounded-4 mb-2">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                        tempor
-                                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
-                                </div>
-                                <div class="bg-grey p-3 rounded-4">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                        tempor
-                                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="team-card p-3">
-                            {{-- header --}}
-                            <div class="team-card-header d-flex">
-                                <img src="assets/icons/JoeGoldberg.svg" height="55px" width="55px" alt="JoeGoldberg"
-                                    style="width: 55px;">
-                                <div class="ms-3">
-                                    <p class="font-20 semi-bold">Joe Goldberg</p>
-                                    <p class="font-12">User id #54844561</p>
-                                    <span class="semi-bold font-12">4.5</span><span><img
-                                            src="assets/icons/ratingstarts.svg" alt="rating"></span>
-                                </div>
-                            </div>
-                            {{-- body --}}
-                            <div class="team-card-body">
-                                <ul class="list-unstyled mt-3">
-                                    <li> <span><img src="assets/icons/TotalOrders.svg" height="25px" width="25px"
-                                                alt="TotalOrders"> <span>Total Orders</span></span> <span
-                                            class="ms-5">5455</span></li>
-                                    <li> <span><img src="assets/icons/Reviews.svg" height="25px" width="25px"
-                                                alt="Reviews">
-                                            <span>Reviews</span></span> <span class="ms-5">5455 Reviews</span></li>
-                                    <li> <span><img src="assets/icons/Degree.svg" height="25px" width="25px"
-                                                alt="Degree">
-                                            <span>Degree</span></span> <span class="ms-5">Master</span></li>
-                                </ul>
-                            </div>
-                            {{-- footer --}}
-                            <div class="team-card-footer">
-                                <p class="semi-bold my-2">Reviews</p>
-                                <div class="bg-grey p-3 rounded-4 mb-2">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                        tempor
-                                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
-                                </div>
-                                <div class="bg-grey p-3 rounded-4">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                        tempor
-                                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="team-card p-3">
-                            {{-- header --}}
-                            <div class="team-card-header d-flex">
-                                <img src="assets/icons/JoeGoldberg.svg" height="55px" width="55px" alt="JoeGoldberg"
-                                    style="width: 55px;">
-                                <div class="ms-3">
-                                    <p class="font-20 semi-bold">Joe Goldberg</p>
-                                    <p class="font-12">User id #54844561</p>
-                                    <span class="semi-bold font-12">4.5</span><span><img
-                                            src="assets/icons/ratingstarts.svg" alt="rating"></span>
-                                </div>
-                            </div>
-                            {{-- body --}}
-                            <div class="team-card-body">
-                                <ul class="list-unstyled mt-3">
-                                    <li> <span><img src="assets/icons/TotalOrders.svg" height="25px" width="25px"
-                                                alt="TotalOrders"> <span>Total Orders</span></span> <span
-                                            class="ms-5">5455</span></li>
-                                    <li> <span><img src="assets/icons/Reviews.svg" height="25px" width="25px"
-                                                alt="Reviews">
-                                            <span>Reviews</span></span> <span class="ms-5">5455 Reviews</span></li>
-                                    <li> <span><img src="assets/icons/Degree.svg" height="25px" width="25px"
-                                                alt="Degree">
-                                            <span>Degree</span></span> <span class="ms-5">Master</span></li>
-                                </ul>
-                            </div>
-                            {{-- footer --}}
-                            <div class="team-card-footer">
-                                <p class="semi-bold my-2">Reviews</p>
-                                <div class="bg-grey p-3 rounded-4 mb-2">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                        tempor
-                                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
-                                </div>
-                                <div class="bg-grey p-3 rounded-4">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                        tempor
-                                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="team-card p-3">
-                            {{-- header --}}
-                            <div class="team-card-header d-flex">
-                                <img src="assets/icons/JoeGoldberg.svg" height="55px" width="55px" alt="JoeGoldberg"
-                                    style="width: 55px;">
-                                <div class="ms-3">
-                                    <p class="font-20 semi-bold">Joe Goldberg</p>
-                                    <p class="font-12">User id #54844561</p>
-                                    <span class="semi-bold font-12">4.5</span><span><img
-                                            src="assets/icons/ratingstarts.svg" alt="rating"></span>
-                                </div>
-                            </div>
-                            {{-- body --}}
-                            <div class="team-card-body">
-                                <ul class="list-unstyled mt-3">
-                                    <li> <span><img src="assets/icons/TotalOrders.svg" height="25px" width="25px"
-                                                alt="TotalOrders"> <span>Total Orders</span></span> <span
-                                            class="ms-5">5455</span></li>
-                                    <li> <span><img src="assets/icons/Reviews.svg" height="25px" width="25px"
-                                                alt="Reviews">
-                                            <span>Reviews</span></span> <span class="ms-5">5455 Reviews</span></li>
-                                    <li> <span><img src="assets/icons/Degree.svg" height="25px" width="25px"
-                                                alt="Degree">
-                                            <span>Degree</span></span> <span class="ms-5">Master</span></li>
-                                </ul>
-                            </div>
-                            {{-- footer --}}
-                            <div class="team-card-footer">
-                                <p class="semi-bold my-2">Reviews</p>
-                                <div class="bg-grey p-3 rounded-4 mb-2">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                        tempor
-                                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
-                                </div>
-                                <div class="bg-grey p-3 rounded-4">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                        tempor
-                                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </section>
+    {{-- team slider --}}
+    @include('teamslider')
     {{-- Get Assistance --}}
-    <section class="Get_Assistance py-40 pt-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-12">
-                    <div class="tag_wrapper d-flex justify-content-lg-start justify-content-center flex-wrap">
-                        <div class="assist-tag">
-                            <a href="#">Essay Writing Service</a>
-                        </div>
-                        <div class="assist-tag">
-                            <a href="#">Case Study Solution</a>
-                        </div>
-                        <div class="assist-tag">
-                            <a href="#">Report Writting</a>
-                        </div>
-                        <div class="assist-tag">
-                            <a href="#">Exam Prepration</a>
-                        </div>
-                        <div class="assist-tag">
-                            <a href="#">Dissertation Purposal</a>
-                        </div>
-                        <div class="assist-tag">
-                            <a href="#">Term Paper Writing</a>
-                        </div>
-                        <div class="assist-tag">
-                            <a href="#">Research Paper</a>
-                        </div>
-                        <div class="assist-tag">
-                            <a href="#">Questions Solution</a>
-                        </div>
-                        <div class="assist-tag">
-                            <a href="#">CourseWork</a>
-                        </div>
-                        <div class="assist-tag">
-                            <a href="#">Assignment Writting</a>
-                        </div>
-                        <div class="assist-tag">
-                            <a href="#">Dissertation</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 d-lg-block d-none">
-                    <img class="img-fluid" src="assets/images/assistbanner.svg" width="346px" height="287px"
-                        alt="assistbanner">
-                </div>
-            </div>
-        </div>
-    </section>
-    {{-- last paer slider --}}
-    {{-- Team Of Professional Essay Writers --}}
-    <section class="py-40 review_slider">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="sub-heading mb-3">Our Recent Written Papers</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
-            </div>
-            <div class="col-lg-12 mx-auto">
-                <div class="owl-two owl-carousel owl-theme">
-                    <div class="review_item">
-                        <div class="review_erapper border-0  p-3">
-                            <div class="fold">
-                            </div>
-                            <h3 class="card-hd mb-2">Report Writing</h3>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <span>Title</span>
-                                    <p>Employee Brnout</p>
-                                </li>
-                                <li>
-                                    <span>Deiverd</span>
-                                    <p>Today</p>
-                                </li>
-                                <li>
-                                    <span>Satisfaction Rate</span>
-                                    <p>4.5</p>
-                                </li>
-                                <li>
-                                    <span>Title</span>
-                                    <p>MLA</p>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="review_item">
-                        <div class="review_erapper border-0  p-3">
-                            <div class="fold">
-                            </div>
-                            <h3 class="card-hd mb-2">Report Writing</h3>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <span>Title</span>
-                                    <p>Employee Brnout</p>
-                                </li>
-                                <li>
-                                    <span>Deiverd</span>
-                                    <p>Today</p>
-                                </li>
-                                <li>
-                                    <span>Satisfaction Rate</span>
-                                    <p>4.5</p>
-                                </li>
-                                <li>
-                                    <span>Title</span>
-                                    <p>MLA</p>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="review_item">
-                        <div class="review_erapper border-0  p-3">
-                            <div class="fold">
-                            </div>
-                            <h3 class="card-hd mb-2">Report Writing</h3>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <span>Title</span>
-                                    <p>Employee Brnout</p>
-                                </li>
-                                <li>
-                                    <span>Deiverd</span>
-                                    <p>Today</p>
-                                </li>
-                                <li>
-                                    <span>Satisfaction Rate</span>
-                                    <p>4.5</p>
-                                </li>
-                                <li>
-                                    <span>Title</span>
-                                    <p>MLA</p>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="review_item">
-                        <div class="review_erapper border-0  p-3">
-                            <div class="fold">
-                            </div>
-                            <h3 class="card-hd mb-2">Report Writing</h3>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <span>Title</span>
-                                    <p>Employee Brnout</p>
-                                </li>
-                                <li>
-                                    <span>Deiverd</span>
-                                    <p>Today</p>
-                                </li>
-                                <li>
-                                    <span>Satisfaction Rate</span>
-                                    <p>4.5</p>
-                                </li>
-                                <li>
-                                    <span>Title</span>
-                                    <p>MLA</p>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="review_item">
-                        <div class="review_erapper border-0  p-3">
-                            <div class="fold">
-                            </div>
-                            <h3 class="card-hd mb-2">Report Writing</h3>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <span>Title</span>
-                                    <p>Employee Brnout</p>
-                                </li>
-                                <li>
-                                    <span>Deiverd</span>
-                                    <p>Today</p>
-                                </li>
-                                <li>
-                                    <span>Satisfaction Rate</span>
-                                    <p>4.5</p>
-                                </li>
-                                <li>
-                                    <span>Title</span>
-                                    <p>MLA</p>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="review_item">
-                        <div class="review_erapper border-0  p-3">
-                            <div class="fold">
-                            </div>
-                            <h3 class="card-hd mb-2">Report Writing</h3>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <span>Title</span>
-                                    <p>Employee Brnout</p>
-                                </li>
-                                <li>
-                                    <span>Deiverd</span>
-                                    <p>Today</p>
-                                </li>
-                                <li>
-                                    <span>Satisfaction Rate</span>
-                                    <p>4.5</p>
-                                </li>
-                                <li>
-                                    <span>Title</span>
-                                    <p>MLA</p>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('assist')
+    {{-- Review slider's component --}}
+    @include('reviewslider')
     {{-- customer review slider --}}
-    <section class="py-40 customer_review_slider">
-        <div class="container">
-            <div class="text-center mb-2">
-                <h2 class="sub-heading mb-3">Here's What Our Customers Are Saying About Us!</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
-            </div>
-            <div class="col-lg-12 mx-auto">
-                <div class="owl-three owl-carousel owl-theme">
-                    <div>
-                        <div class="customer_review_item">
-                            <div class="review_erapper border-0  p-3">
-                                <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt
-                                    Ut
-                                    Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo
-                                    Duo
-                                    Dolores Et Ea Rebum.</p>
-                                <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
-                                <p>5.0/4.9</p>
-                            </div>
-                        </div>
-                        <div class="p-3 review_footer mt-3">
-                            <img src="assets/images/customerimg.svg" alt="customerimg">
-                            <div class="ms-3">
-                                <span>Melly Brown</span>
-                                <p>CS-2042877 Assignment Writing On Strategy</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="customer_review_item">
-                            <div class="review_erapper border-0  p-3">
-                                <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt
-                                    Ut
-                                    Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo
-                                    Duo
-                                    Dolores Et Ea Rebum.</p>
-                                <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
-                                <p>5.0/4.9</p>
-                            </div>
-                        </div>
-                        <div class="p-3 review_footer mt-3">
-                            <img src="assets/images/customerimg.svg" alt="customerimg">
-                            <div class="ms-3">
-                                <span>Melly Brown</span>
-                                <p>CS-2042877 Assignment Writing On Strategy</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="customer_review_item">
-                            <div class="review_erapper border-0  p-3">
-                                <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt
-                                    Ut
-                                    Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo
-                                    Duo
-                                    Dolores Et Ea Rebum.</p>
-                                <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
-                                <p>5.0/4.9</p>
-                            </div>
-                        </div>
-                        <div class="p-3 review_footer mt-3">
-                            <img src="assets/images/customerimg.svg" alt="customerimg">
-                            <div class="ms-3">
-                                <span>Melly Brown</span>
-                                <p>CS-2042877 Assignment Writing On Strategy</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="customer_review_item">
-                            <div class="review_erapper border-0  p-3">
-                                <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt
-                                    Ut
-                                    Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo
-                                    Duo
-                                    Dolores Et Ea Rebum.</p>
-                                <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
-                                <p>5.0/4.9</p>
-                            </div>
-                        </div>
-                        <div class="p-3 review_footer mt-3">
-                            <img src="assets/images/customerimg.svg" alt="customerimg">
-                            <div class="ms-3">
-                                <span>Melly Brown</span>
-                                <p>CS-2042877 Assignment Writing On Strategy</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="customer_review_item">
-                            <div class="review_erapper border-0  p-3">
-                                <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt
-                                    Ut
-                                    Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo
-                                    Duo
-                                    Dolores Et Ea Rebum.</p>
-                                <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
-                                <p>5.0/4.9</p>
-                            </div>
-                        </div>
-                        <div class="p-3 review_footer mt-3">
-                            <img src="assets/images/customerimg.svg" alt="customerimg">
-                            <div class="ms-3">
-                                <span>Melly Brown</span>
-                                <p>CS-2042877 Assignment Writing On Strategy</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="customer_review_item">
-                            <div class="review_erapper border-0  p-3">
-                                <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt
-                                    Ut
-                                    Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo
-                                    Duo
-                                    Dolores Et Ea Rebum.</p>
-                                <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
-                                <p>5.0/4.9</p>
-                            </div>
-                        </div>
-                        <div class="p-3 review_footer mt-3">
-                            <img src="assets/images/customerimg.svg" alt="customerimg">
-                            <div class="ms-3">
-                                <span>Melly Brown</span>
-                                <p>CS-2042877 Assignment Writing On Strategy</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="customer_review_item">
-                            <div class="review_erapper border-0  p-3">
-                                <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sscing Elitr, Sed Diam Nonumy Eirmod Tpor Invidunt
-                                    Ut
-                                    Labore Et Dolore Magna Aliquyam Erat, Sed Dm Voluptua. At Vero Eos Et Accusam Et Justo
-                                    Duo
-                                    Dolores Et Ea Rebum.</p>
-                                <img src="assets/icons/reviewstarts.svg" alt="reviewstarts">
-                                <p>5.0/4.9</p>
-                            </div>
-                        </div>
-                        <div class="p-3 review_footer mt-3">
-                            <img src="assets/images/customerimg.svg" alt="customerimg">
-                            <div class="ms-3">
-                                <span>Melly Brown</span>
-                                <p>CS-2042877 Assignment Writing On Strategy</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+     {{-- customer slider's component --}}
+     @include('customerslider')
     {{-- order now --}}
-    <section class="py-100 order_Now_section">
-        <div class="container order_Now p-lg-5 p-3">
-            <div class="row">
-                <div class="col-lg-8">
-                    <h2 class="sub-heading text-white">Never Used Our Writing Service?</h2>
-                    <p class="text-white my-3 text-lg-start text-center">Get 5% off the first order and 10% back for the next one.</p>
-                 <div class="text-lg-start text-center">
-                    <button class="btn secondary-bg text-white semi-bold"> <img class="mb-1"
-                        src="assets/icons/ordernowbox.svg" alt="ordernowbox"> &nbsp;ORDER NOW</button>
-                 </div>
-                </div>
-                <div class="col-lg-4 d-lg-block d-none">
-                    <img class="banner" src="assets/images/ordernowbanner.webp" alt="ordernowbanner">
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer class="py-40 footer_section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 d-lg-block d-none">
-                    <img src="assets/logo.svg" alt="logo">
-                    <div class="bg-white rounded-11 p-3 mt-4">
-                        <p class="semi-bold">Overall Reviews</p>
-                        <p class="font-13 font_10 my-1">Lorem ipsum dolor sit amet, consetetur</p>
-                     <div class="d-flex justify-content-between align-items-center review">
-                        <span><img src="assets/icons/reviewstarts.svg" alt="reviewstarts"></span>
-                        <span class="fw-bold rating px-3 py-2 rounded-4" style="font-size:18px; ">4.9/ <span class="font-13">5.0</span> </span>
-                     </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 d-lg-block d-none">
-                    <ul class="list-unstyled">
-                        <h5>Services</h5>
-                        <li><a href="#">Essay Writing Help</a></li>
-                        <li><a href="#">Case Study Solution</a></li>
-                        <li><a href="#">Report Writing</a></li>
-                        <li><a href="#">Dissertation</a></li>
-                        <li><a href="#">Dissertation Proposal</a></li>
-                        <li><a href="#">PPT Presentation</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 d-lg-block d-none">
-                    <ul class="list-unstyled">
-                        <li><a href="#">Coursework</a></li>
-                        <li><a href="#">Term Paper</a></li>
-                        <li><a href="#">Exam Preparation</a></li>
-                        <li><a href="#">Research Paper</a></li>
-                        <li><a href="#">Questions Solution</a></li>
-                        <li><a href="#">Assignment Writing Help</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-2">
-                    <ul class="list-unstyled">
-                        <h5>How it Works?</h5>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Policies</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3">
-                   <h5>We Accept</h5>
-                   <img src="assets/images/paymentmethod.svg" alt="paymentmethod">
-                   <h5 class="semi-bold mt-3">Social Links</h5>
-                   <img src="assets/icons/linkedin.svg" alt="linkedin">
-                   <img class="mx-2" src="assets/icons/facebook.svg" alt="facebook">
-                   <img src="assets/icons/twitter.svg" alt="twitter">
-                </div>
-            </div>
-        </div>
-    </footer>
+    @include('ordernow')
+
 @endsection

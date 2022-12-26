@@ -20,6 +20,10 @@
     background-color: $grey;
 }
 
+.rounded-top-both {
+    border-radius: 14px 14px 0px 0px;
+}
+
 .rounded-11 {
     border-radius: 11px;
 }
@@ -151,6 +155,9 @@
     border: none;
     font-size: 16px;
     color: #787878 !important;
+    &::placeholder {
+        font-size: 12px;
+    }
 }
 
 .hover_btn {

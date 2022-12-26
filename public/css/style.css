@@ -242,6 +242,27 @@
   background-position: center;
 }
 
+.hero_banner {
+  background-image: url("../assets/images/herobg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.why-us {
+  background-image: url("../assets/images/whybg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.why-us {
+  background-image: url("../assets/images/advanbg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .btn-md {
   border-radius: 8px;
   padding: 10px 15px !important;
@@ -261,6 +282,10 @@
 
 .bg-fade-grey {
   background-color: #F5F5F5;
+}
+
+.rounded-top-both {
+  border-radius: 14px 14px 0px 0px;
 }
 
 .rounded-11 {
@@ -395,6 +420,15 @@
   font-size: 16px;
   color: #787878 !important;
 }
+.myform::-moz-placeholder {
+  font-size: 12px;
+}
+.myform:-ms-input-placeholder {
+  font-size: 12px;
+}
+.myform::placeholder {
+  font-size: 12px;
+}
 
 .hover_btn {
   border: 1px solid #1B4541;
@@ -504,7 +538,7 @@ li {
     padding-top: 80px !important;
   }
   .heading {
-    font-size: 1.875rem;
+    font-size: 1.575rem;
     text-align: center;
   }
   .sub-heading {
@@ -568,4 +602,23 @@ li {
     right: 0;
     right: -73px;
   }
+}
+.services_hero_section {
+  background-image: url("../assets/images/serviceheor.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.scrollerable {
+  height: 823px;
+  background-color: #F7F7F7;
+  overflow-y: scroll;
+  padding: 30px;
+}
+
+.aboutus {
+  background-image: url("../assets/images/aboutusherobanner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
 }/*# sourceMappingURL=style.css.map */

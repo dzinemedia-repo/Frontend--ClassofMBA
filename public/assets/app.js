@@ -12,7 +12,7 @@ owl.owlCarousel({
     // autoplay: true,
     lazyLoad: true,
 
-    navText: ["<img src='../assets/icons/nextslide.svg'>", "<img src='../assets/icons/prevslide.svg'>"],
+    navText: ["<img src='../assets/icons/prevslide.svg'>", "<img src='../assets/icons/nextslide.svg'>"],
     responsive: {
         0: {
             items: 1
