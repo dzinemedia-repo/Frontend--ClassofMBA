@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img class="img-fluid d-lg-block d-none" src="assets/images/Whybest.webp" height="289px" height="430px" alt="Whybest">
+                    <img class="img-fluid d-lg-block d-none" class="img-fluid d-lg-block d-none" src="assets/images/Whybest.webp" height="289px" height="430px" alt="Whybest">
                 </div>
                 <div class="col-lg-6">
                     <h2 class="sub-heading">Why Our Essay Writing Service is best.</h2>

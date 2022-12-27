@@ -335,6 +335,10 @@
   padding: 100px 0px 100px 0px;
 }
 
+.py-150 {
+  padding: 60px 0px 150px 0px;
+}
+
 .py-60 {
   padding: 60px 0px 60px 0px;
 }
@@ -580,6 +584,11 @@ li {
     width: 226px;
     margin-bottom: 10px;
   }
+  .aboutus {
+    background-image: unset !important;
+    background-color: #F5FFFE;
+    height: 100% !important;
+  }
 }
 @media screen and (min-width: 992px) {
   .owl-stage-outer {
@@ -603,6 +612,11 @@ li {
     right: -73px;
   }
 }
+@media screen and (min-width: 1400px) {
+  .py-150 {
+    padding: 60px 0px 250px 0px;
+  }
+}
 .services_hero_section {
   background-image: url("../assets/images/serviceheor.png");
   background-size: cover;
@@ -620,5 +634,4 @@ li {
   background-image: url("../assets/images/aboutusherobanner.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
 }/*# sourceMappingURL=style.css.map */

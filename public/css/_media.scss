@@ -49,6 +49,11 @@
         width: 226px;
         margin-bottom: 10px;
     }
+    .aboutus {
+        background-image: unset !important;
+        background-color: #F5FFFE;
+        height: 100%!important;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -71,5 +76,11 @@
         top: 50% !important;
         right: 0;
         right: -73px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .py-150 {
+        padding: 60px 0px 250px 0px;
     }
 }
