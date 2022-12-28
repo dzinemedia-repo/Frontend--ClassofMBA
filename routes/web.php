@@ -57,4 +57,8 @@ Route::get('aboutus', function () {
     return view('aboutus');
 }) ->name('aboutus') ;
 
+Route::get('howitworks', function () {
+    return view('howitworks');
+}) ->name('howitworks') ;
+
 

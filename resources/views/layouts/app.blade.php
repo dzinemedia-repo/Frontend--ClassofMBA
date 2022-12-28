@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('assets/Carousel/dist/assets/owl.carousel.min.css') }}" />
     <link rel="stylesheet" href="{{ URL::asset('assets/Carousel/dist/assets/owl.theme.default.min.css') }}" />
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/icons/favicon.png') }}">
 </head>
 
 <body class="antialiased">
@@ -56,7 +57,7 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="aboutus">About Class of MBA</a></li>
-                                <li><a class="dropdown-item" href="#">How it Works?</a></li>
+                                <li><a class="dropdown-item" href="{{ route('howitworks') }}">How it Works?</a></li>
                                 <li><a class="dropdown-item" href="#">Reviews</a></li>
                                 <li><a class="dropdown-item" href="#">FAQ's</a></li>
                                 <li><a class="dropdown-item" href="#">Blog</a></li>
