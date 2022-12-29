@@ -61,4 +61,8 @@ Route::get('howitworks', function () {
     return view('howitworks');
 }) ->name('howitworks') ;
 
+Route::get('order', function () {
+    return view('order');
+}) ->name('order') ;
+
 

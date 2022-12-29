@@ -10,14 +10,6 @@
         font-size: 1.275rem;
         text-align: center;
     }
-    .py-60 {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    .py-40 {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
     .py-100 {
         padding-top: 30px !important;
         padding-bottom: 30px !important;
@@ -53,6 +45,9 @@
         background-image: unset !important;
         background-color: #F5FFFE;
         height: 100%!important;
+    }
+    .mt_-80px {
+        margin-top: 40px !important;
     }
 }
 

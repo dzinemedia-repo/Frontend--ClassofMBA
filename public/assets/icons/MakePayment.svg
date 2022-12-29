@@ -1,0 +1,11 @@
+<svg id="pay-per-click" xmlns="http://www.w3.org/2000/svg" width="23.591" height="11.172" viewBox="0 0 23.591 11.172">
+  <g id="Group_13615" data-name="Group 13615" transform="translate(0)">
+    <path id="Union_13" data-name="Union 13" d="M11.8,11.172h-8.8A2.826,2.826,0,0,1,0,8.56V2.612A2.826,2.826,0,0,1,2.995,0H20.6a2.826,2.826,0,0,1,2.995,2.612V8.56A2.826,2.826,0,0,1,20.6,11.172Z" fill="#1b4541"/>
+  </g>
+  <path id="Path_10168" data-name="Path 10168" d="M304.526,183.973l-1.3,1.741-1.3-1.741h-1.651L302.536,187l-.008,2.763,1.382,0,.008-2.765,2.258-3.025Z" transform="translate(-286.437 -181.282)" fill="#eaf1ff"/>
+  <path id="Path_10169" data-name="Path 10169" d="M105.356,185.9a2.069,2.069,0,0,0-2.2-1.9H101v5.787h1.382V187.8l.771,0A2.069,2.069,0,0,0,105.356,185.9Zm-2.97,0c0-.136,0-.422,0-.69h.769a.7.7,0,1,1,0,1.38l-.765,0C102.387,186.334,102.386,186.058,102.386,185.9Z" transform="translate(-96.346 -181.311)" fill="#f9f9f9"/>
+  <g id="Group_13616" data-name="Group 13616" transform="translate(8.692 2.692)">
+    <path id="Path_10170" data-name="Path 10170" d="M252.146,184h-.6l-.215,1.045.215,1.02.007-.015.581,1.342h-.587l-.215.627.215.579h1.109l.513,1.186h1.477Z" transform="translate(-248.446 -184)" fill="#eaf1ff"/>
+    <path id="Path_10171" data-name="Path 10171" d="M191.177,187.392l.579-1.327V184h-.577l-2.526,5.784h1.479l.518-1.186h1.106v-1.206Z" transform="translate(-188.653 -184)" fill="#f9f9f9"/>
+  </g>
+</svg>

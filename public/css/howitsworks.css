@@ -1,0 +1,8 @@
+.first-step {
+  position: relative;
+}
+.first-step::after {
+  content: url("../assets/images/stepcounter.svg");
+  position: absolute;
+  left: 0;
+}/*# sourceMappingURL=howitsworks.css.map */

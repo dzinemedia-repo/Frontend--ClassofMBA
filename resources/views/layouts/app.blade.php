@@ -30,7 +30,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item me-50">
-                            <a class="nav-link active pt-lg-2 pt-0" aria-current="page" href="#">HOME</a>
+                            <a class="nav-link active pt-lg-2 pt-0" aria-current="page" href="{{ route('index') }}">HOME</a>
                         </li>
                         <li class="nav-item dropdown me-50 nav_drop">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -72,7 +72,7 @@
                                 <i><img src="assets/icons/login.svg" alt="ordernow"></i> LOGIN</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link primary_bg  d-inline-block  text-white btn-md" href="#"> <i><img
+                            <a class="nav-link primary_bg  d-inline-block  text-white btn-md" href="{{ route('order') }}"> <i><img
                                         src="assets/icons/ordernow.svg" alt="ordernow"></i> ORDER NOW</a>
                         </li>
                     </ul>

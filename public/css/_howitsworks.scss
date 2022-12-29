@@ -1,0 +1,9 @@
+.first-step {
+    position: relative;
+    &::before {
+        content: url("../assets/images/stepcounter.svg");
+        position: absolute;
+        left: -171px;
+        top: 20px;
+    }
+}
