@@ -67,12 +67,12 @@
                             </ul>
                         </li>
                         <li class="nav-item me-2">
-                            <a class="nav-link secondary-bg d-inline-block text-white btn-md mb-lg-0 mb-3"
+                            <a class="secondary-bg d-inline-block text-white btn-md mb-lg-0 mb-3"
                                 href="#">
                                 <i><img src="assets/icons/login.svg" alt="ordernow"></i> LOGIN</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link primary_bg  d-inline-block  text-white btn-md" href="{{ route('order') }}"> <i><img
+                            <a class="primary_bg  d-inline-block  text-white btn-md" href="{{ route('order') }}"> <i><img
                                         src="assets/icons/ordernow.svg" alt="ordernow"></i> ORDER NOW</a>
                         </li>
                     </ul>

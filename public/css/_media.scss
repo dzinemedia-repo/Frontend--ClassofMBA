@@ -19,6 +19,7 @@
         width: 100%;
         padding: 8px;
         left: 0;
+        z-index: 9999;
         .navbar-nav {
             background: #fff;
             border-radius: 8px;
@@ -48,6 +49,24 @@
     }
     .mt_-80px {
         margin-top: 40px !important;
+    }
+    .py-mobile {
+        padding: 80px 0px 50px 0px !important;
+    }
+    .order_form .form_area {
+        padding: 13px !important;
+    }
+    .order_bars .order_step_indicator {
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (max-width: 759px) {
+    .step img {
+        display: none;
+    }
+    .order_bars .wrapper span {
+        font-size: 12px;
     }
 }
 
