@@ -277,6 +277,14 @@
   background-color: #F6F6F6;
 }
 
+.black_fade {
+  background-color: #2C2E2F;
+}
+
+.red_fade {
+  background-color: #E35050;
+}
+
 .faded-red-bg {
   background-color: #FFFBF7;
 }
@@ -364,6 +372,10 @@
   font-size: 14px;
 }
 
+.font-26 {
+  font-size: 26px;
+}
+
 .font_36 {
   font-size: 36px;
 }
@@ -389,7 +401,11 @@
 }
 
 .semi-bold {
-  font-weight: 600;
+  font-family: sofiaPro_semibold;
+}
+
+.font-bold {
+  font-family: sofiaPro_bold;
 }
 
 .equal_shadow {
@@ -416,6 +432,10 @@
 
 .p-8-10 {
   padding: 8px 10px !important;
+}
+
+.font_md {
+  font-family: sofia_medium;
 }
 
 .arrows_rotation {
@@ -445,6 +465,11 @@
   font-weight: 700;
 }
 
+.toggle_card {
+  height: 0;
+  overflow: hidden;
+}
+
 .hover_btn {
   border: 1px solid #1B4541;
 }
@@ -454,6 +479,10 @@
 }
 .hover_btn:hover img {
   filter: brightness(0) saturate(100%) invert(20%) sepia(22%) saturate(1159%) hue-rotate(125deg) brightness(94%) contrast(87%);
+}
+
+.rounded_outer {
+  border-radius: 0px 4px 4px 0px;
 }
 
 body {
@@ -474,6 +503,7 @@ h6 {
 
 a {
   text-decoration: none;
+  color: unset;
 }
 
 p {
@@ -670,13 +700,6 @@ li {
   top: 20px;
 }
 
-.order_bars .order_bar {
-  background: var(--unnamed-color-ff7a07) 0% 0% no-repeat padding-box;
-  background: #FF7A07 0% 0% no-repeat padding-box;
-  border-radius: 11px;
-  width: 50%;
-  height: 7px;
-}
 .order_bars .order_slide {
   width: 100%;
   height: 7px;
@@ -784,23 +807,78 @@ li {
   background-color: #FF7A07 !important;
   color: #fff;
 }
-.order_form .price_card {
+
+.order_bar_50 {
+  background: var(--unnamed-color-ff7a07) 0% 0% no-repeat padding-box;
+  background: #FF7A07 0% 0% no-repeat padding-box;
+  border-radius: 11px;
+  width: 50%;
+  height: 7px;
+}
+
+.order_bar_100 {
+  width: 100% !important;
+}
+
+.details {
+  background-color: #F8FAFB;
+}
+.details .Order_Details {
+  padding: 30px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.details .Order_Details span {
+  color: #000000;
+  font-family: sofiaPro_semibold;
+}
+.details .Order_Details .detail_row {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0784313725);
+  padding: 15px 0px 15px 0px;
+}
+.details .Order_Details .detail_row .date_time {
+  color: #E35050;
+}
+
+.date_time {
+  color: #E35050;
+}
+
+.price_green {
+  color: #89BA1B;
+}
+
+.bg_price_green {
+  background-color: #89BA1B;
+  color: #fff;
+}
+
+.price_card {
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.0784313725);
   border-radius: 8px;
+  background-color: #fff;
 }
-.order_form .price_card .header {
+.price_card .header {
   font-family: sofiaPro_bold;
   padding: 8px;
   border-radius: 9px 9px 0px 0px;
 }
-.order_form .price_card .card_body .heading {
+.price_card .card_body .heading {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.order_form .price_card .card_body p {
+.price_card .card_body p {
   margin-bottom: 40px !important;
 }
-.order_form .price_card .btn {
+.price_card .btn {
   margin-bottom: 20px;
   font-family: sofiaPro_semibold;
+}
+
+.border_bottom {
+  border-bottom: 1px solid #B8B8B8;
+}
+
+.form_padding {
+  padding: 12px 20px !important;
 }/*# sourceMappingURL=style.css.map */

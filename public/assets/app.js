@@ -63,3 +63,11 @@ $('.owl-three').owlCarousel({
         }
     }
 });
+// toggle payment Method
+let debitfomr = document.getElementById("paymentform");
+let paymentformbtn = document.getElementById("paymentform_btn");
+
+paymentformbtn.addEventListener('click', function() {
+    debitfomr.classList.toggle("toggle_card");
+
+});

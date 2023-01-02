@@ -14,7 +14,7 @@
                         {{-- step 1 --}}
                         <div class=" col-4">
                             <div class="order_slide">
-                                <div class="order_bar">
+                                <div class="order_bar_50">
                                 </div>
                             </div>
                             <div class="d-flex align-items-center mt-1 step">
@@ -367,7 +367,7 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <a class="primary_bg text-white btn" href="">Next-Make Pament <img
+                    <a class="primary_bg text-white btn" href="{{ route('order_details') }}">Next-Make Pament <img
                             src="assets/icons/nextstep.svg" alt="nextstep"></a>
                 </div>
             </form>

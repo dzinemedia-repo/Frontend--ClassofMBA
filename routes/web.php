@@ -65,4 +65,17 @@ Route::get('order', function () {
     return view('order');
 }) ->name('order') ;
 
+Route::get('order_details', function () {
+    return view('order_details');
+}) ->name('order_details') ;
+
+Route::get('thankyou', function () {
+    return view('thankyou');
+}) ->name('thankyou') ;
+
+Route::get('contactus', function () {
+    return view('contactus');
+}) ->name('contactus') ;
+
+
 

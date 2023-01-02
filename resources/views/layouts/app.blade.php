@@ -61,7 +61,7 @@
                                 <li><a class="dropdown-item" href="#">Reviews</a></li>
                                 <li><a class="dropdown-item" href="#">FAQ's</a></li>
                                 <li><a class="dropdown-item" href="#">Blog</a></li>
-                                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                                <li><a class="dropdown-item" href="{{ route('contactus') }}">Contact Us</a></li>
                                 <li><a class="dropdown-item" href="#">Honor Code</a></li>
                                 <li><a class="dropdown-item" href="#">Academic Integrity</a></li>
                             </ul>

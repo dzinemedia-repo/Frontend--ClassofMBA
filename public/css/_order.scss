@@ -1,11 +1,4 @@
 .order_bars {
-    .order_bar {
-        background: var(--unnamed-color-ff7a07) 0% 0% no-repeat padding-box;
-        background: #FF7A07 0% 0% no-repeat padding-box;
-        border-radius: 11px;
-        width: 50%;
-        height: 7px;
-    }
     .order_slide {
         width: 100%;
         height: 7px;
@@ -120,26 +113,83 @@
             color: #fff;
         }
     }
-    .price_card {
-        box-shadow: 0px 0px 6px #00000014;
+}
+
+// bar classes
+.order_bar_50 {
+    background: var(--unnamed-color-ff7a07) 0% 0% no-repeat padding-box;
+    background: #FF7A07 0% 0% no-repeat padding-box;
+    border-radius: 11px;
+    width: 50%;
+    height: 7px;
+}
+
+.order_bar_100 {
+    width: 100% !important;
+}
+
+// order details page's css starts here
+.details {
+    background-color: #F8FAFB;
+    .Order_Details {
+        padding: 30px;
         border-radius: 8px;
-        .header {
-            font-family: sofiaPro_bold;
-            padding: 8px;
-            border-radius: 9px 9px 0px 0px;
-        }
-        .card_body {
-            .heading {
-                margin-top: 40px;
-                margin-bottom: 40px;
-            }
-            p {
-                margin-bottom: 40px !important;
-            }
-        }
-        .btn {
-            margin-bottom: 20px;
+        background-color: #fff;
+        span {
+            color: #000000;
             font-family: sofiaPro_semibold;
         }
+        .detail_row {
+            border-bottom: 1px solid #00000014;
+            padding: 15px 0px 15px 0px;
+            .date_time {
+                color: #E35050;
+            }
+        }
     }
+}
+
+.date_time {
+    color: #E35050;
+}
+
+.price_green {
+    color: #89BA1B;
+}
+
+.bg_price_green {
+    background-color: #89BA1B;
+    color: #fff;
+}
+
+.price_card {
+    box-shadow: 0px 0px 6px #00000014;
+    border-radius: 8px;
+    background-color: #fff;
+    .header {
+        font-family: sofiaPro_bold;
+        padding: 8px;
+        border-radius: 9px 9px 0px 0px;
+    }
+    .card_body {
+        .heading {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        p {
+            margin-bottom: 40px !important;
+        }
+    }
+    .btn {
+        margin-bottom: 20px;
+        font-family: sofiaPro_semibold;
+    }
+}
+
+.border_bottom {
+    border-bottom: 1px solid #B8B8B8;
+}
+
+.form_padding {
+    padding: 12px 20px !important;
 }

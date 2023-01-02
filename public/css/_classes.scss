@@ -12,6 +12,14 @@
     background-color: $fade_grey;
 }
 
+.black_fade {
+    background-color: $black_fade;
+}
+
+.red_fade {
+    background-color: #E35050;
+}
+
 .faded-red-bg {
     background-color: $lite-red;
 }
@@ -99,6 +107,10 @@
     font-size: 14px;
 }
 
+.font-26 {
+    font-size: 26px;
+}
+
 .font_36 {
     font-size: 36px;
 }
@@ -124,7 +136,11 @@
 }
 
 .semi-bold {
-    font-weight: 600;
+    font-family: sofiaPro_semibold;
+}
+
+.font-bold {
+    font-family: sofiaPro_bold;
 }
 
 .equal_shadow {
@@ -153,6 +169,10 @@
     padding: 8px 10px !important;
 }
 
+.font_md {
+    font-family: sofia_medium;
+}
+
 .arrows_rotation {
     transform: rotate(180deg);
     transition: transform 1s linear;
@@ -174,6 +194,11 @@
     font-weight: 700;
 }
 
+.toggle_card {
+    height: 0;
+    overflow: hidden;
+}
+
 .hover_btn {
     border: 1px solid $primary_shade;
     &:hover {
@@ -183,4 +208,8 @@
             filter: brightness(0) saturate(100%) invert(20%) sepia(22%) saturate(1159%) hue-rotate(125deg) brightness(94%) contrast(87%);
         }
     }
+}
+
+.rounded_outer {
+    border-radius: 0px 4px 4px 0px;
 }
