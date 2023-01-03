@@ -13,7 +13,7 @@
         </div>
     </section>
     {{-- contact section starts --}}
-    <section class="py-60">
+    <section class="py-60 pb-0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -77,19 +77,16 @@
                                     value="" required="" placeholder="Enter Subject here"></textarea>
                             </div>
 
-<div class="text-lg-start text-center">
-    <button class="primary_bg text-white btn">Send Message<img src="assets/icons/nextstep.svg" alt="nextstep"></button>
-</div>
-
-
-
-
-
-
+                            <div class="text-lg-start text-center">
+                                <button class="primary_bg text-white btn">Send Message<img src="assets/icons/nextstep.svg"
+                                        alt="nextstep"></button>
+                            </div>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </section>
+       {{-- order now --}}
+       @include('ordernow')
 @endsection

@@ -77,5 +77,18 @@ Route::get('contactus', function () {
     return view('contactus');
 }) ->name('contactus') ;
 
+Route::get('review', function () {
+    return view('review');
+}) ->name('review') ;
+
+Route::get('codehonor', function () {
+    return view('codehonor');
+}) ->name('codehonor') ;
+
+Route::get('integrity', function () {
+    return view('integrity');
+}) ->name('integrity') ;
+
+
 
 

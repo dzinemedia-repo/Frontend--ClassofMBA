@@ -28,7 +28,7 @@
         </div>
     </section>
     {{-- feature cards --}}
-@include('featurecard')
+    @include('featurecard')
     {{-- calulator section --}}
     <section class="py-60">
         <div class="container">

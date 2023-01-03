@@ -15,8 +15,9 @@
     {{-- feature cards --}}
     @include('featurecard')
     {{-- how it works step by step --}}
-    <section class="py-40">
+    <section class="py-60">
         <div class="container">
+            <h2 class="sub-heading text-center">How it Works?</h2>
             <div class="row">
                 {{-- first row --}}
                 <div class="row justify-content-between">
@@ -67,7 +68,6 @@
             </div>
         </div>
     </section>
-
     {{-- order now --}}
     @include('ordernow')
 @endsection

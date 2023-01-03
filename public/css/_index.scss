@@ -153,27 +153,6 @@
             .owl-stage-outer {
                 padding: 60px 0px 60px 0px;
             }
-            .customer_review_item {
-                background-color: #fff;
-                border-radius: 8px !important;
-                box-shadow: 0px 0px 9px #00000014;
-                p {
-                    font-size: 14px;
-                }
-                position: relative;
-                &::after {
-                    content: "";
-                    width: 0px;
-                    height: 0px;
-                    position: absolute;
-                    border-left: 10px solid #fff;
-                    border-right: 10px solid transparent;
-                    border-top: 10px solid #fff;
-                    border-bottom: 10px solid transparent;
-                    right: 322px;
-                    bottom: -19px;
-                }
-            }
             .owl-stage-outer .owl-stage .center .customer_review_item {
                 background-color: #1B4541;
                 color: #fff !important;
@@ -273,4 +252,26 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+        }
+        
+        .customer_review_item {
+            background-color: #fff;
+            border-radius: 8px !important;
+            box-shadow: 0px 0px 9px #00000014;
+            p {
+                font-size: 14px;
+            }
+            position: relative;
+            &::after {
+                content: "";
+                width: 0px;
+                height: 0px;
+                position: absolute;
+                border-left: 10px solid #fff;
+                border-right: 10px solid transparent;
+                border-top: 10px solid #fff;
+                border-bottom: 10px solid transparent;
+                right: 322px;
+                bottom: -19px;
+            }
         }

@@ -24,7 +24,7 @@
                         <div class="d-flex">
                             <img class="me-3" src="assets/icons/LackofSkills.svg" alt="LackofSkills">
                             <div>
-                                <p class="font-14 semi-bold">Excusive Workload</p>
+                                <p class="font-14 semi-bold">Lack of Skills</p>
                                 <p class="font-14">At vero eos et accusam et justo duo dolores et ea rebum. </p>
                             </div>
                         </div>
@@ -33,7 +33,7 @@
                         <div class="d-flex">
                             <img class="me-3" src="assets/icons/DeadlinePressure.svg" alt="DeadlinePressure">
                             <div>
-                                <p class="font-14 semi-bold">Excusive Workload</p>
+                                <p class="font-14 semi-bold">Deadline Pressure</p>
                                 <p class="font-14">At vero eos et accusam et justo duo dolores et ea rebum. </p>
                             </div>
                         </div>
@@ -42,7 +42,7 @@
                         <div class="d-flex">
                             <img class="me-3" src="assets/icons/WantHighGrades.svg" alt="WantHighGrades">
                             <div>
-                                <p class="font-14 semi-bold">Excusive Workload</p>
+                                <p class="font-14 semi-bold">Want High Grades</p>
                                 <p class="font-14">At vero eos et accusam et justo duo dolores et ea rebum. </p>
                             </div>
                         </div>
