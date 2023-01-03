@@ -87,7 +87,11 @@ Route::get('codehonor', function () {
 
 Route::get('integrity', function () {
     return view('integrity');
-}) ->name('integrity') ;
+}) ->name('integrity');
+
+Route::get('faqs', function () {
+    return view('faqs');
+}) ->name('faqs') ;
 
 
 

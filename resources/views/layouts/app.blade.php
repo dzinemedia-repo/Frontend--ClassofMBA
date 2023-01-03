@@ -59,7 +59,7 @@
                                 <li><a class="dropdown-item" href="aboutus">About Class of MBA</a></li>
                                 <li><a class="dropdown-item" href="{{ route('howitworks') }}">How it Works?</a></li>
                                 <li><a class="dropdown-item" href="{{ route('review') }}">Reviews</a></li>
-                                <li><a class="dropdown-item" href="#">FAQ's</a></li>
+                                <li><a class="dropdown-item" href="{{ route('faqs') }}">FAQ's</a></li>
                                 <li><a class="dropdown-item" href="#">Blog</a></li>
                                 <li><a class="dropdown-item" href="{{ route('contactus') }}">Contact Us</a></li>
                                 <li><a class="dropdown-item" href="{{ route('codehonor') }}">Honor Code</a></li>

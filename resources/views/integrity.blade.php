@@ -2,20 +2,19 @@
 @section('content')
     <section class="py-60 honor">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-lg-start text-center">
                     <h1 class="heading">Academic Integrity</h1>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
                         labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
                         et ea rebum. Stet clita kasd gubergren, no sea takimata</p>
                 </div>
-                <div class="col-lg-6 text-end">
+                <div class="col-lg-6 text-end d-lg-block d-none">
                     <img src="assets/images/Integrity.webp" width="265px" height="254px" alt="Integrity">
                 </div>
             </div>
         </div>
     </section>
-
     {{-- honor code --}}
     <section class="py-40">
         <div class="container">
@@ -57,7 +56,7 @@
 
         </div>
     </section>
-{{-- honor content --}}
+    {{-- honor content --}}
     <section class="py-40">
         <div class="container">
             <div class="row">
@@ -110,6 +109,6 @@
             </div>
         </div>
     </section>
-        {{-- order now --}}
-        @include('ordernow')
+    {{-- order now --}}
+    @include('ordernow')
 @endsection
