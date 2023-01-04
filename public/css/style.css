@@ -524,6 +524,7 @@ li {
 
 @font-face {
   font-family: sofia_Regular;
+  font-weight: 400;
   src: url(../assets/font/sofia_Regular.otf);
 }
 @font-face {
@@ -911,4 +912,77 @@ li {
   border: 1px solid #E0E0E0;
   border-radius: 8px;
   padding: 15px;
+}
+
+.faqs .accordion-item {
+  border: unset;
+}
+.faqs .tab-content {
+  width: 75%;
+}
+.faqs .nav-link {
+  color: #000000;
+  font-family: sofiaPro_semibold;
+  text-align: left !important;
+  position: relative;
+}
+.faqs .nav-pills .nav-link.active,
+.faqs .nav-pills .show > .nav-link {
+  background-color: #1B4541;
+}
+.faqs .nav-pills .nav-link.active::after,
+.faqs .nav-pills .show > .nav-link::after {
+  content: url("/assets/icons/greaterthen.svg");
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.faqs .accordion-button::after {
+  content: "";
+  background-image: url("/assets/icons/plus.svg");
+}
+.faqs .accordion-button:not(.collapsed)::after {
+  background-image: url("/assets/icons/minus.svg");
+}
+.faqs .accordion-button {
+  color: #272727;
+  box-shadow: none !important;
+  font-family: sofia_medium;
+}
+.faqs .accordion-button:not(.collapsed) {
+  background-color: #1B4541;
+  color: #fff;
+}
+.faqs .accordion-body {
+  background-color: #1B4541 !important;
+  color: #fff !important;
+  font-family: sofia_Regular;
+}
+
+.grey_btn {
+  background-color: #F9F9F9;
+}
+
+.blog_section .hero_blog {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.0392156863);
+  border-radius: 8px;
+  padding: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  transform: translate(4px, -94px);
+  z-index: 9999999;
+  background-color: #fff !important;
+}
+.blog_section .hero_blog span {
+  font-family: sofia_medium;
+}
+
+.read_more {
+  position: relative;
+}
+.read_more:after {
+  content: url("/assets/icons/readmore.svg");
+  margin-left: 10px;
+  position: absolute;
+  left: 77px;
+  top: -2px;
 }/*# sourceMappingURL=style.css.map */

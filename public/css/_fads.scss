@@ -1,0 +1,48 @@
+.faqs {
+    .accordion-item {
+        border: unset;
+    }
+    .tab-content {
+        width: 75%;
+    }
+    .nav-link {
+        color: #000000;
+        font-family: sofiaPro_semibold;
+        text-align: left !important;
+        position: relative;
+    }
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        background-color: $primary_shade;
+        &::after {
+            content: url("/assets/icons/greaterthen.svg");
+            margin-left: 15px;
+            margin-top: 15px;
+        }
+    }
+    .accordion-button::after {
+        content: "";
+        background-image: url("/assets/icons/plus.svg");
+    }
+    .accordion-button:not(.collapsed)::after {
+        background-image: url("/assets/icons/minus.svg");
+    }
+    .accordion-button {
+        color: #272727;
+        box-shadow: none !important;
+        font-family: sofia_medium;
+    }
+    .accordion-button:not(.collapsed) {
+        background-color: #1B4541;
+        color: #fff;
+    }
+    .accordion-body {
+        background-color: #1B4541 !important;
+        color: #fff !important;
+        font-family: sofia_Regular;
+    }
+}
+
+.grey_btn {
+    background-color: #F9F9F9;
+}

@@ -95,4 +95,10 @@ Route::get('faqs', function () {
 
 
 
+Route::get('blog', function () {
+    return view('blog');
+}) ->name('blog') ;
+
+
+
 

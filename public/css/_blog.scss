@@ -1,0 +1,26 @@
+.blog_section {
+    .hero_blog {
+        box-shadow: 0px 5px 5px #0000000A;
+        border-radius: 8px;
+        padding: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+        transform: translate(4px, -94px);
+        z-index: 9999999;
+        background-color: #fff !important;
+        span {
+            font-family: sofia_medium;
+        }
+    }
+}
+
+.read_more {
+    position: relative;
+    &:after {
+        content: url("/assets/icons/readmore.svg");
+        margin-left: 10px;
+        position: absolute;
+        left: 77px;
+        top: -2px;
+    }
+}

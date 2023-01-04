@@ -60,7 +60,7 @@
                                 <li><a class="dropdown-item" href="{{ route('howitworks') }}">How it Works?</a></li>
                                 <li><a class="dropdown-item" href="{{ route('review') }}">Reviews</a></li>
                                 <li><a class="dropdown-item" href="{{ route('faqs') }}">FAQ's</a></li>
-                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                                <li><a class="dropdown-item" href="{{ route('blog') }}">Blog</a></li>
                                 <li><a class="dropdown-item" href="{{ route('contactus') }}">Contact Us</a></li>
                                 <li><a class="dropdown-item" href="{{ route('codehonor') }}">Honor Code</a></li>
                                 <li><a class="dropdown-item" href="{{ route('integrity') }}">Academic Integrity</a></li>
@@ -122,7 +122,7 @@
                     <ul class="list-unstyled">
                         <h5>How it Works?</h5>
                         <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="{{ route('blog') }}">Blog</a></li>
                         <li><a href="#">Contact Us</a></li>
                         <li><a href="#">Policies</a></li>
                         <li><a href="#">Terms of Use</a></li>
