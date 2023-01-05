@@ -93,11 +93,43 @@ Route::get('faqs', function () {
     return view('faqs');
 }) ->name('faqs') ;
 
-
-
 Route::get('blog', function () {
     return view('blog');
 }) ->name('blog') ;
+
+
+Route::get('blog_details', function () {
+    return view('blog_details');
+}) ->name('blog_details') ;
+
+
+Route::get('user_login', function () {
+    return view('user_login');
+}) ->name('user_login') ;
+
+Route::get('forget_password', function () {
+    return view('forget_password');
+}) ->name('forget_password') ;
+
+
+Route::get('register', function () {
+    return view('register');
+}) ->name('register') ;
+
+
+Route::get('checkMail', function () {
+    return view('checkMail');
+}) ->name('checkMail') ;
+
+
+
+
+
+
+
+
+
+
 
 
 

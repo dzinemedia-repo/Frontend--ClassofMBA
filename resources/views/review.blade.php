@@ -66,7 +66,7 @@
                         </div>
                         <div class="p-3 review_footer mt-3">
                             <img src="assets/images/customerimg.svg" alt="customerimg">
-                            <div class="ms-3">
+                            <div class="">
                                 <span>Melly Brown</span>
                                 <p>CS-2042877 Assignment Writing On Strategy</p>
                             </div>
@@ -88,7 +88,7 @@
                         </div>
                         <div class="p-3 review_footer mt-3">
                             <img src="assets/images/customerimg.svg" alt="customerimg">
-                            <div class="ms-3">
+                            <div class="">
                                 <span>Melly Brown</span>
                                 <p>CS-2042877 Assignment Writing On Strategy</p>
                             </div>
@@ -110,7 +110,7 @@
                         </div>
                         <div class="p-3 review_footer mt-3">
                             <img src="assets/images/customerimg.svg" alt="customerimg">
-                            <div class="ms-3">
+                            <div class="">
                                 <span>Melly Brown</span>
                                 <p>CS-2042877 Assignment Writing On Strategy</p>
                             </div>
@@ -132,7 +132,7 @@
                         </div>
                         <div class="p-3 review_footer mt-3">
                             <img src="assets/images/customerimg.svg" alt="customerimg">
-                            <div class="ms-3">
+                            <div class="">
                                 <span>Melly Brown</span>
                                 <p>CS-2042877 Assignment Writing On Strategy</p>
                             </div>
@@ -154,7 +154,7 @@
                         </div>
                         <div class="p-3 review_footer mt-3">
                             <img src="assets/images/customerimg.svg" alt="customerimg">
-                            <div class="ms-3">
+                            <div class="">
                                 <span>Melly Brown</span>
                                 <p>CS-2042877 Assignment Writing On Strategy</p>
                             </div>
@@ -176,7 +176,7 @@
                         </div>
                         <div class="p-3 review_footer mt-3">
                             <img src="assets/images/customerimg.svg" alt="customerimg">
-                            <div class="ms-3">
+                            <div class="">
                                 <span>Melly Brown</span>
                                 <p>CS-2042877 Assignment Writing On Strategy</p>
                             </div>

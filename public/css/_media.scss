@@ -91,6 +91,19 @@
         right: 0;
         right: -73px;
     }
+    .blog_link {
+        width: 709px !important;
+        height: 425px !important;
+        overflow: hidden !important;
+        .blog_thumbnail {
+            transition: transform .5s ease;
+        }
+        &:hover {
+            .blog_thumbnail {
+                transform: scale(1.2);
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 1400px) {

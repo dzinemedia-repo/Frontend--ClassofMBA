@@ -68,7 +68,7 @@
                         </li>
                         <li class="nav-item me-2">
                             <a class="secondary-bg d-inline-block text-white btn-md mb-lg-0 mb-3"
-                                href="#">
+                                href="{{ route('user_login') }}">
                                 <i><img src="assets/icons/login.svg" alt="ordernow"></i> LOGIN</a>
                         </li>
                         <li class="nav-item">
