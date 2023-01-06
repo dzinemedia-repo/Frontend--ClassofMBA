@@ -20,12 +20,10 @@
         padding: 8px;
         left: 0;
         z-index: 9999;
-        .navbar-nav {
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0px 0px 14px #0000000D;
-            padding: 10px 7px;
-        }
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0px 0px 14px #0000000D;
+        padding: 10px 7px;
     }
     .owl-nav {
         margin-top: 20px;
@@ -51,13 +49,16 @@
         margin-top: 40px !important;
     }
     .py-mobile {
-        padding: 80px 0px 50px 0px !important;
+        padding: 100px 0px 50px 0px !important;
     }
     .order_form .form_area {
         padding: 13px !important;
     }
     .order_bars .order_step_indicator {
         font-size: 16px !important;
+    }
+    .py-150 {
+        padding: 60px 0px 60px 0px;
     }
 }
 
@@ -103,6 +104,9 @@
                 transform: scale(1.2);
             }
         }
+    }
+    .navbar-nav {
+        align-items: center;
     }
 }
 

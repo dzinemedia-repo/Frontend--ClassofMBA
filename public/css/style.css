@@ -27,7 +27,7 @@
 
 .Guranties-list li {
   position: relative;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
   margin-left: 24px;
 }
 
@@ -63,10 +63,17 @@
   border-radius: 12px;
 }
 .team-card .team-card-body ul li {
+  display: flex;
+  align-items: center;
   background-color: #F6F6F6;
   padding: 5px;
   border-radius: 4px;
   margin-bottom: 7px;
+}
+.team-card .team-card-body ul li span {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
 }
 
 .compelete-bg {
@@ -236,13 +243,6 @@
   background-repeat: no-repeat;
 }
 
-.why-us {
-  background-image: url("../assets/images/advanbg.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .customer_review_item {
   background-color: #fff;
   border-radius: 8px !important;
@@ -261,7 +261,7 @@
   border-right: 10px solid transparent;
   border-top: 10px solid #fff;
   border-bottom: 10px solid transparent;
-  right: 322px;
+  left: 10%;
   bottom: -19px;
 }
 
@@ -349,8 +349,16 @@
   padding: 60px 0px 150px 0px;
 }
 
+.mt-38 {
+  margin-top: 38px;
+}
+
 .py-60 {
   padding: 60px 0px 60px 0px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
 }
 
 .py-40 {
@@ -524,6 +532,14 @@ li {
   font-family: sofia_Regular;
 }
 
+article {
+  text-align: justify;
+}
+
+.btn {
+  font-family: sofiaPro_semibold !important;
+}
+
 .btn,
 .form-control {
   box-shadow: unset !important;
@@ -552,8 +568,13 @@ li {
   src: url(../assets/font/sofiaPro_light.otf);
 }
 .navbar_section {
-  background-image: url("../assets/images/navbg.png");
-  background-size: cover;
+  background-color: #F5FFFE;
+  position: relative;
+  padding-bottom: 17px;
+}
+.navbar_section .nav_layer {
+  position: absolute;
+  left: 20%;
 }
 
 .navbar .nav-item .nav-link {
@@ -610,8 +631,6 @@ li {
     padding: 8px;
     left: 0;
     z-index: 9999;
-  }
-  .navbar .navbar-nav {
     background: #fff;
     border-radius: 8px;
     box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.0509803922);
@@ -637,13 +656,16 @@ li {
     margin-top: 40px !important;
   }
   .py-mobile {
-    padding: 80px 0px 50px 0px !important;
+    padding: 100px 0px 50px 0px !important;
   }
   .order_form .form_area {
     padding: 13px !important;
   }
   .order_bars .order_step_indicator {
     font-size: 16px !important;
+  }
+  .py-150 {
+    padding: 60px 0px 60px 0px;
   }
 }
 @media screen and (max-width: 759px) {
@@ -685,6 +707,9 @@ li {
   }
   .blog_link:hover .blog_thumbnail {
     transform: scale(1.2);
+  }
+  .navbar-nav {
+    align-items: center;
   }
 }
 @media screen and (min-width: 1400px) {

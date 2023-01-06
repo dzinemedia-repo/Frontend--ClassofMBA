@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <p class="mb-0 font-18 text-lg-start text-center">200 Writers Online</p>
+                    <p class="mb-0 font-18 text-lg-start text-center"> <i><img class="mb-1" src="assets/icons/bluedot.svg" alt="bluedot"></i> 200 Writers Online</p>
                     <h1 class="heading">
                         Professional Academic&nbsp;<span class="text_secondary d-inline-block">Writing</span> Service
                     </h1>

@@ -19,6 +19,7 @@
 <body class="antialiased">
     {{-- header --}}
     <section class="navbar_section">
+        <img class="nav_layer" src="assets/images/navlayer.png" alt="navlayer">
         <div class="container">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="{{ route('index') }}"><img src="assets/logo.svg" alt=""></a>
@@ -66,13 +67,13 @@
                                 <li><a class="dropdown-item" href="{{ route('integrity') }}">Academic Integrity</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item me-2">
+                        <li class="nav-item me-2 mt-lg-0 mt-2">
                             <a class="secondary-bg d-inline-block text-white btn-md mb-lg-0 mb-3"
                                 href="{{ route('user_login') }}">
-                                <i><img src="assets/icons/login.svg" alt="ordernow"></i> LOGIN</a>
+                                <i><img class="mb-1" src="assets/icons/login.svg" alt="login"></i> LOGIN</a>
                         </li>
                         <li class="nav-item">
-                            <a class="primary_bg  d-inline-block  text-white btn-md" href="{{ route('order') }}"> <i><img
+                            <a class="primary_bg  d-inline-block  text-white btn-md" href="{{ route('order') }}"> <i><img class="mb-1"
                                         src="assets/icons/ordernow.svg" alt="ordernow"></i> ORDER NOW</a>
                         </li>
                     </ul>
@@ -86,7 +87,7 @@
         <div class="container px-3 py-40">
             <div class="row">
                 <div class="col-lg-3 d-lg-block d-none">
-                    <img src="assets/logo.svg" alt="logo">
+                    <a href="{{ route('index') }}"><img src="assets/logo.svg" alt="logo"></a>
                     <div class="bg-white rounded-11 p-3 mt-4">
                         <p class="semi-bold">Overall Reviews</p>
                         <p class="font-13 font_10 my-1">Lorem ipsum dolor sit amet, consetetur</p>
@@ -97,35 +98,35 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 d-lg-block d-none">
+                <div class="col-lg-2 d-lg-block d-none ">
                     <ul class="list-unstyled">
                         <h5>Services</h5>
-                        <li><a href="#">Essay Writing Help</a></li>
-                        <li><a href="#">Case Study Solution</a></li>
-                        <li><a href="#">Report Writing</a></li>
-                        <li><a href="#">Dissertation</a></li>
-                        <li><a href="#">Dissertation Proposal</a></li>
-                        <li><a href="#">PPT Presentation</a></li>
+                        <li><a href="{{ route('essayWritingHelp') }}">Essay Writing Help</a></li>
+                        <li><a href="{{ route('CaseStudySolution') }}">Case Study Solution</a></li>
+                        <li><a href="{{ route('ReportWriting') }}">Report Writing</a></li>
+                        <li><a href="{{ route('Dissertation') }}">Dissertation</a></li>
+                        <li><a href="{{ route('DissertationProposal') }}">Dissertation Proposal</a></li>
+                        <li><a href="{{ route('PPTPresentation') }}">PPT Presentation</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2 d-lg-block d-none">
+                <div class="col-lg-2 d-lg-block d-none mt-38">
                     <ul class="list-unstyled">
-                        <li><a href="#">Coursework</a></li>
-                        <li><a href="#">Term Paper</a></li>
-                        <li><a href="#">Exam Preparation</a></li>
-                        <li><a href="#">Research Paper</a></li>
-                        <li><a href="#">Questions Solution</a></li>
-                        <li><a href="#">Assignment Writing Help</a></li>
+                        <li><a href="{{ route('Coursework') }}">Coursework</a></li>
+                        <li><a href="{{ route('TermPaper') }}">Term Paper</a></li>
+                        <li><a href="{{ route('essayWritingHelp') }}">Exam Preparation</a></li>
+                        <li><a href="{{ route('essayWritingHelp') }}">Research Paper</a></li>
+                        <li><a href="{{ route('essayWritingHelp') }}">Questions Solution</a></li>
+                        <li><a href="{{ route('essayWritingHelp') }}">Assignment Writing Help</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-2">
                     <ul class="list-unstyled">
-                        <h5>How it Works?</h5>
-                        <li><a href="#">FAQs</a></li>
+                        <h5>About us</h5>
+                        <li><a href="{{ route('faqs') }}">FAQs</a></li>
                         <li><a href="{{ route('blog') }}">Blog</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Policies</a></li>
-                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="{{ route('contactus')}}">Contact Us</a></li>
+                        <li><a href="{{ route('policy')}}">Policies</a></li>
+                        <li><a href="{{ route('term')}}"">Terms of Use</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3">

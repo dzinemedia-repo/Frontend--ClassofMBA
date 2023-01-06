@@ -2,7 +2,7 @@
     <div class="fold">
 
     </div>
-    <h3 class="card-hd mb-2">Calculate Order Price</h3>
+    <h3 class="card-hd mb-2"> <i><img class="mb-1" src="assets/icons/calculator.svg" alt="calculator"></i> Calculate Order Price</h3>
     <form action="">
         <div class="row">
             <div class="col-lg-6">

@@ -1,4 +1,4 @@
-<section class="compelete-bg py-60">
+<section class="compelete-bg py-40">
     <div class="container">
         <div class="row">
             <div class="col-lg-3">

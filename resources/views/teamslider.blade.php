@@ -9,7 +9,7 @@
                 <div>
                     <div class="team-card p-3">
                         {{-- header --}}
-                        <div class="team-card-header d-flex">
+                        <div class="team-card-header d-flex align-items-center">
                             <img src="assets/icons/JoeGoldberg.svg" height="55px" width="55px" alt="JoeGoldberg"
                                 style="width: 55px;">
                             <div class="ms-3">
@@ -52,7 +52,7 @@
                 <div>
                     <div class="team-card p-3">
                         {{-- header --}}
-                        <div class="team-card-header d-flex">
+                        <div class="team-card-header d-flex align-items-center">
                             <img src="assets/icons/JoeGoldberg.svg" height="55px" width="55px" alt="JoeGoldberg"
                                 style="width: 55px;">
                             <div class="ms-3">
@@ -95,7 +95,7 @@
                 <div>
                     <div class="team-card p-3">
                         {{-- header --}}
-                        <div class="team-card-header d-flex">
+                        <div class="team-card-header d-flex align-items-center">
                             <img src="assets/icons/JoeGoldberg.svg" height="55px" width="55px" alt="JoeGoldberg"
                                 style="width: 55px;">
                             <div class="ms-3">
@@ -138,7 +138,7 @@
                 <div>
                     <div class="team-card p-3">
                         {{-- header --}}
-                        <div class="team-card-header d-flex">
+                        <div class="team-card-header d-flex align-items-center">
                             <img src="assets/icons/JoeGoldberg.svg" height="55px" width="55px" alt="JoeGoldberg"
                                 style="width: 55px;">
                             <div class="ms-3">
@@ -181,7 +181,7 @@
                 <div>
                     <div class="team-card p-3">
                         {{-- header --}}
-                        <div class="team-card-header d-flex">
+                        <div class="team-card-header d-flex align-items-center">
                             <img src="assets/icons/JoeGoldberg.svg" height="55px" width="55px" alt="JoeGoldberg"
                                 style="width: 55px;">
                             <div class="ms-3">
@@ -224,7 +224,7 @@
                 <div>
                     <div class="team-card p-3">
                         {{-- header --}}
-                        <div class="team-card-header d-flex">
+                        <div class="team-card-header d-flex align-items-center">
                             <img src="assets/icons/JoeGoldberg.svg" height="55px" width="55px" alt="JoeGoldberg"
                                 style="width: 55px;">
                             <div class="ms-3">

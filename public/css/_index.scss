@@ -27,7 +27,7 @@
         // our Guranties
         .Guranties-list li {
             position: relative;
-            margin-bottom: 12px;
+            margin-bottom: 15px;
             margin-left: 24px;
         }
         
@@ -63,10 +63,17 @@
             border-radius: 12px;
             .team-card-body {
                 ul li {
+                    display: flex;
+                    align-items: center;
                     background-color: #F6F6F6;
                     padding: 5px;
                     border-radius: 4px;
                     margin-bottom: 7px;
+                    span {
+                        display: flex;
+                        align-items: center;
+                        margin-left: 10px;
+                    }
                 }
             }
         }
@@ -247,13 +254,6 @@
             background-repeat: no-repeat;
         }
         
-        .why-us {
-            background-image: url("../assets/images/advanbg.png");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-        
         .customer_review_item {
             background-color: #fff;
             border-radius: 8px !important;
@@ -271,7 +271,7 @@
                 border-right: 10px solid transparent;
                 border-top: 10px solid #fff;
                 border-bottom: 10px solid transparent;
-                right: 322px;
+                left: 10%;
                 bottom: -19px;
             }
         }

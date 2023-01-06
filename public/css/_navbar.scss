@@ -1,6 +1,11 @@
 .navbar_section {
-    background-image: url("../assets/images/navbg.png");
-    background-size: cover;
+    background-color: #F5FFFE;
+    position: relative;
+    padding-bottom: 17px;
+    .nav_layer {
+        position: absolute;
+        left: 20%;
+    }
 }
 
 .navbar {

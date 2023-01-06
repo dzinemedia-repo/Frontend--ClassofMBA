@@ -19,7 +19,7 @@
     <section class="py-40">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 text-lg-start text-center">
                     <img class="img-fluid d-lg-block d-none" src="assets/images/Whybest.webp" height="289px" height="430px" alt="Whybest">
                 </div>
                 <div class="col-lg-6">

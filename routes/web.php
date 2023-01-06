@@ -121,6 +121,15 @@ Route::get('checkMail', function () {
     return view('checkMail');
 }) ->name('checkMail') ;
 
+Route::get('policy', function () {
+    return view('policy');
+}) ->name('policy');
+
+Route::get('term', function () {
+    return view('term');
+}) ->name('term');
+
+
 
 
 

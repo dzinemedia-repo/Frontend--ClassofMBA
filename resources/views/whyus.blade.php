@@ -12,37 +12,37 @@
                     labore et dolore magna aliquyam erat, sed diam voluptua.</p>
                 <div class="row gy-5">
                     <div class="col-lg-6">
-                        <div class="d-flex">
+                        <div class="d-flex align-items-start">
                             <img class="me-3" src="assets/icons/ExcusiveWorkload.svg" alt="ExcusiveWorkload">
                             <div>
-                                <p class="font-14 semi-bold">Excusive Workload</p>
+                                <h4 class="font-14 semi-bold">Excusive Workload</p>
                                 <p class="font-14">At vero eos et accusam et justo duo dolores et ea rebum. </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="d-flex">
+                        <div class="d-flex align-items-start">
                             <img class="me-3" src="assets/icons/LackofSkills.svg" alt="LackofSkills">
                             <div>
-                                <p class="font-14 semi-bold">Lack of Skills</p>
+                                <h4 class="font-14 semi-bold">Lack of Skills</h4>
                                 <p class="font-14">At vero eos et accusam et justo duo dolores et ea rebum. </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="d-flex">
+                        <div class="d-flex align-items-start">
                             <img class="me-3" src="assets/icons/DeadlinePressure.svg" alt="DeadlinePressure">
                             <div>
-                                <p class="font-14 semi-bold">Deadline Pressure</p>
+                                <h4 class="font-14 semi-bold">Deadline Pressure</h4>
                                 <p class="font-14">At vero eos et accusam et justo duo dolores et ea rebum. </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="d-flex">
+                        <div class="d-flex align-items-start">
                             <img class="me-3" src="assets/icons/WantHighGrades.svg" alt="WantHighGrades">
                             <div>
-                                <p class="font-14 semi-bold">Want High Grades</p>
+                                <h4 class="font-14 semi-bold">Want High Grades</h4>
                                 <p class="font-14">At vero eos et accusam et justo duo dolores et ea rebum. </p>
                             </div>
                         </div>
