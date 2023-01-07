@@ -115,3 +115,9 @@
         padding: 60px 0px 250px 0px;
     }
 }
+
+@media screen and (max-width: 990px) {
+    .banner {
+        display: none;
+    }
+}

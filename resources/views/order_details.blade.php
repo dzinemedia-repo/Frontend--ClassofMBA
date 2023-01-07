@@ -175,7 +175,7 @@
                     <div class="price_card billing_info">
                         {{-- header --}}
                         <div class="header primary_bg text-white text-center">
-                            Total Price inc. VAT Delivery
+                            Billing Information
                         </div>
                         {{-- body --}}
                         <div class="m-3">
@@ -194,7 +194,7 @@
                                     <span class="font-14">Have a Credit?</span>
                                 </div>
                                 <div class="col-lg-6 text-end">
-                                    <span class="font-14 text-decoration-underline">Use credit</span>
+                                    <button href="#" class="font-14 text-decoration-underline border-0 bg-transparent">Use credit</button>
                                 </div>
                             </div>
                             <div class="d-flex detail_row align-items-center border_bottom py-2 justify-content-between">
@@ -202,13 +202,12 @@
                                     <span class="font-14">Have a Discount Code?</span>
                                 </div>
                                 <div class="col-lg-6 text-end">
-                                    <span class="font-14 text-decoration-underline">+Add</span>
+                                    <button class="font-14 text-decoration-underline border-0 bg-transparent" id="discount_code">+Add</button>
                                 </div>
                             </div>
-                            <div class="py-4">
+                            <div class="py-4 d-none" id="discountInput">
                                 <div class="input-group">
-                                    <input type="text" class="form-control form_padding"
-                                        aria-label="Dollar amount (with dot and two decimal places)">
+                                    <input type="text" class="form-control form_padding">
                                     <button
                                         class="input-group-text bg_price_green font-13 font-bold form_padding">Apply</button>
                                     <button class="input-group-text red_fade rounded_outer form_padding"><img

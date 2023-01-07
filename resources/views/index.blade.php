@@ -12,7 +12,7 @@
                     <div class="my-3 text-lg-start text-center">
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
                             ut </p>
-                        <a class="btn mt-3 primary_bg text-white btn-md hover_btn" href=""> <img
+                        <a class="btn mt-3 primary_bg text-white btn-md hover_btn" href="{{ route('order') }}"> <img
                                 src="assets/icons/Quill.svg" alt="Quill"> Write My Paper</a>
                         <div class="mt-4">
                             <img class="img-fluid " src="assets/icons/siterating.svg"alt="siterating">
@@ -40,7 +40,7 @@
                     <div class="my-3 text-lg-start text-center">
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
                             ut </p>
-                        <a class="btn mt-3 secondary-bg text-white btn-md border-0 hover_btn" href="">Read More <i
+                        <a class="btn mt-3 secondary-bg text-white btn-md border-0 hover_btn" href="{{ route("essayWritingHelp") }}">Read More <i
                                 class="ms-2"><img src="assets/icons/arrowright.svg" alt="Quill"></i></a>
 
                     </div>

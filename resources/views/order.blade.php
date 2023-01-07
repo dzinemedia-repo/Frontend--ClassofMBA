@@ -384,7 +384,7 @@
             <div class="card_body d-flex justify-content-center align-items-center flex-column">
                 <span class="heading">$200</span>
                 <p>Estimated Delivery Date</p>
-                <a class="primary_bg text-white btn" href="">Next-Make Pament <img src="assets/icons/nextstep.svg" alt="nextstep"></a>
+                <a class="primary_bg text-white btn" href="{{ route('order_details') }}">Next-Make Pament <img src="assets/icons/nextstep.svg" alt="nextstep"></a>
             </div>
             {{-- card footer --}}
 

@@ -71,3 +71,10 @@ paymentformbtn.addEventListener('click', function() {
     debitfomr.classList.toggle("toggle_card");
 
 });
+
+let discountCode = document.getElementById("discount_code");
+let discountInput = document.getElementById("discountInput");
+
+discountCode.addEventListener('click', function() {
+    discountInput.classList.toggle("d-none")
+});

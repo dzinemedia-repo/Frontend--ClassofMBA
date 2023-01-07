@@ -68,7 +68,8 @@
   background-color: #F6F6F6;
   padding: 5px;
   border-radius: 4px;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 .team-card .team-card-body ul li span {
   display: flex;
@@ -200,7 +201,7 @@
 }
 .order_Now_section .banner {
   position: absolute;
-  top: 3px;
+  top: 12px;
 }
 
 .footer_section {
@@ -544,6 +545,7 @@ article {
 .form-control {
   box-shadow: unset !important;
   outline: 0 !important;
+  padding: 10px 25px;
 }
 
 @font-face {
@@ -715,6 +717,11 @@ article {
 @media screen and (min-width: 1400px) {
   .py-150 {
     padding: 60px 0px 250px 0px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .banner {
+    display: none;
   }
 }
 .services_hero_section {
@@ -891,7 +898,11 @@ article {
 }
 
 .price_green {
-  color: #89BA1B;
+  color: #89BA1B !important;
+}
+
+.ink_blue {
+  color: #3A5DCE;
 }
 
 .bg_price_green {

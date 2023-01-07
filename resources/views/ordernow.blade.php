@@ -6,11 +6,11 @@
                 <p class="text-white my-3 text-lg-start text-center">Get 5% off the first order and 10% back for the
                     next one.</p>
                 <div class="text-lg-start text-center">
-                    <button class="btn secondary-bg text-white semi-bold"> <img class="mb-1"
-                            src="assets/icons/ordernowbox.svg" alt="ordernowbox"> &nbsp;ORDER NOW</button>
+                    <a href="{{ route('order') }}" class="btn secondary-bg text-white semi-bold"> <img class="mb-1"
+                            src="assets/icons/ordernowbox.svg" alt="ordernowbox"> &nbsp;ORDER NOW</a>
                 </div>
             </div>
-            <div class="col-lg-4 d-lg-block d-none">
+            <div class="col-lg-4">
                 <img class="banner" src="assets/images/ordernowbanner.webp" alt="ordernowbanner">
             </div>
         </div>
