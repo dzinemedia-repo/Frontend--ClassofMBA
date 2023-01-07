@@ -537,6 +537,10 @@ article {
   text-align: justify;
 }
 
+textarea {
+  resize: none;
+}
+
 .btn {
   font-family: sofiaPro_semibold !important;
 }
@@ -921,8 +925,8 @@ article {
   border-radius: 9px 9px 0px 0px;
 }
 .price_card .card_body .heading {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .price_card .card_body p {
   margin-bottom: 40px !important;
