@@ -4,12 +4,12 @@
     <section class="py-60 services_hero_section pt-80">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <h1 class="heading">Get Assistance from Professionals in Our Essay Writing Service</h1>
                     <p class="text-lg-start text-center my-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
                         labore et dolore</p>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     @include('calc')
                 </div>
             </div>
@@ -18,7 +18,7 @@
     {{-- Why Our Essay Writing Service is best. --}}
     <section class="py-40">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-lg-6">
                     <img class="img-fluid d-lg-block d-none" class="img-fluid d-lg-block d-none" src="assets/images/Whybest.webp" height="289px" height="430px" alt="Whybest">
                 </div>

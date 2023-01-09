@@ -11,6 +11,7 @@ owl.owlCarousel({
     nav: true,
     // autoplay: true,
     lazyLoad: true,
+    dots: true,
 
     navText: ["<img src='../assets/icons/prevslide.svg'>", "<img src='../assets/icons/nextslide.svg'>"],
     responsive: {
@@ -30,6 +31,7 @@ $('.owl-two').owlCarousel({
     loop: true,
     margin: 10,
     nav: true,
+    lazyLoad: true,
     autoplay: false,
     responsive: {
         0: {
@@ -78,3 +80,17 @@ let discountInput = document.getElementById("discountInput");
 discountCode.addEventListener('click', function() {
     discountInput.classList.toggle("d-none")
 });
+
+
+
+// password icon( show hide password)
+
+function passwordshowhide() {
+    // toggle the type attribute
+
+    let togglePassword = document.querySelector(".togglePassword");
+    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    password.setAttribute('type', type);
+    // toggle the eye / eye slash icon
+    togglePassword.classList.toggle('bi-eye');
+}

@@ -86,11 +86,6 @@
     {{-- Team Of Professional Essay Writers --}}
     {{-- team slider --}}
     @include('teamslider')
-    {{-- Get Assistance --}}
-    @include('assist')
-    {{-- Review slider's component --}}
-    @include('reviewslider')
-    {{-- customer review slider --}}
     {{-- customer slider's component --}}
     @include('customerslider')
     {{-- order now --}}

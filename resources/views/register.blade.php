@@ -22,8 +22,9 @@
                           <div class="col-lg-12">
                             <input type="text" class="form-control mb_12" placeholder="Your Password">
                         </div>
-                        <div class="col-lg-12">
-                            <input type="text" class="form-control mb_12" placeholder="Confirm Password">
+                        <div class="col-lg-12 password_field">
+                            <input type="password" class="form-control mb_12" id="password" placeholder="Password">
+                            <i class="bi bi-eye-slash password_icon togglePassword" onclick="passwordshowhide()"></i>
                         </div>
                         <div class="text-end my-3">
                         </div>

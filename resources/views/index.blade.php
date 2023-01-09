@@ -33,7 +33,7 @@
     <section class="py-60">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <h2 class="sub-heading">
                         Get Assistance from Professionals in Our Essay Writing Service
                     </h2>
@@ -45,7 +45,7 @@
 
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     @include('calc')
                 </div>
             </div>

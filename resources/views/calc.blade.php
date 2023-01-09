@@ -1,6 +1,5 @@
 <div class="calculator  p-3">
     <div class="fold">
-
     </div>
     <h3 class="card-hd mb-2"> <i><img class="mb-1" src="assets/icons/calculator.svg" alt="calculator"></i> Calculate Order Price</h3>
     <form action="">
@@ -21,9 +20,6 @@
                     <option value="3">Three</option>
                 </select>
             </div>
-
-
-
             <div class="col-lg-6">
                 <label for="">Deadline</label>
 
@@ -35,13 +31,11 @@
                     <option value="3">Three</option>
                 </select>
             </div>
-
-
             <div class="col-lg-6">
                 <label for="">Approximately ~ 0 Page(s)</label>
                 <div class="d-flex  align-items-center">
                     <div class="">
-                        <input class="form-control myform" type="text" name=""
+                        <input class="form-control myform" type="number" name=""
                             id="" placeholder="Number of words">
                     </div>
                     <div class=" d-flex align-items-center">

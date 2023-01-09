@@ -58,7 +58,7 @@
    <div class="row gy-4">
     <div class="col-lg-9">
         <div class="form_area">
-            <p class="font-20 semi-bold">Choose Your Country of Study</p>
+            <h3 class="font-20 semi-bold">Choose Your Country of Study</h3>
             <form action="">
                 <div class="row countries">
                     <div class="col-lg-2 col-4 px-2 my-2">
@@ -326,7 +326,7 @@
                             </div>
                             <div class="col-md-6 col-12 mb-2  b-form-group">
                                 <label for="">Phone No.</label>
-                                <div class="input-group mb-3">
+                                <div class="input-group mb-3 bg_lite_orange">
                                     <button class="btn form-contro dropdown-toggle" type="button"
                                         data-bs-toggle="dropdown" aria-expanded="false"><img
                                             src="assets/icons/pakistan.svg" alt="country"></button>
@@ -340,11 +340,11 @@
                                         <li><a class="dropdown-item" href="#">Separated link</a></li>
                                     </ul>
                                     <input type="text" class="form-control"
-                                        aria-label="Text input with dropdown button">
+                                        aria-label="Text input with dropdown button" placeholder="0301-2345678">
                                 </div>
                             </div>
                             <div class="col-md-6 col-12 mb-3  b-form-group">
-                                <label for="">Emai*</label>
+                                <label for="">Email*</label>
                                 <input type="email" class="form-control" name="remail" id="email"
                                     placeholder="someone@domain.com" required=""
                                     pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,}$">

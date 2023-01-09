@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
     {{-- hero section --}}
-    <section class="py-60 hero_banner">
+    <section class="hero_banner py-60 pb-100 py-mobile">
         <div class="container">
             <div class="row">
                 <div class="text-center mb-lg-5">

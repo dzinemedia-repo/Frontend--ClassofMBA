@@ -9,12 +9,13 @@
                             <p class="semi-bold ">Login to your account</p>
                         </div>
                         <div class="row">
-                      <form action="" class="my-3">
+                      <form action="" class="my-3 form">
                         <div class="col-lg-12">
                             <input type="text" class="form-control mb_12" placeholder="Email">
                         </div>
-                        <div class="col-lg-12">
-                            <input type="text" class="form-control mb_12" placeholder="Password">
+                        <div class="col-lg-12 password_field">
+                            <input type="password" class="form-control mb_12" id="password" placeholder="Password">
+                            <i class="bi bi-eye-slash password_icon togglePassword" onclick="passwordshowhide()"></i>
                         </div>
                         <div class="text-end my-3">
                             <a href="{{ route('forget_password') }}" class="text-decoration-underline font_md font-14">Forget Password?</a>
@@ -25,12 +26,6 @@
                         </div>
                       </form>
                         </div>
-
-
-
-                    <form action="">
-
-                    </form>
                 </div>
             </div>
         </div>
