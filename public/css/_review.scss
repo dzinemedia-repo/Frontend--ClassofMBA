@@ -16,3 +16,18 @@
         height: 100%;
     }
 }
+
+.site_rading {
+    position: relative;
+    &::before {
+        content: url();
+        width: 19px;
+        height: 19px;
+        transform: matrix(0.71, 0.71, -0.71, 0.71, -18, 63);
+        border: 1px solid var(--unnamed-color-1b4541);
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid;
+        border-color: transparent transparent $primary_shade $primary_shade;
+        position: absolute;
+    }
+}

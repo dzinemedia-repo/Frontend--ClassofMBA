@@ -1,12 +1,12 @@
 @extends('layouts.app')
 @section('content')
     {{-- how it works hero banner --}}
-    <section class="py-60 hero_banner">
+    <section class="py-60 pb-100 py-mobile hero_banner">
         <div class="container">
             <div class="row gy-4">
                 <div class="col-lg-6">
                     <div class="text-lg-start text-center mb-lg-5">
-                        <h1 class="heading  mb-4">How Class of MBA Works!</h1>
+                        <h1 class="heading  mb-4">Here's What Our Customers Are Saying About Us!</h1>
                         <p class="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
                             tempor invidunt ut
                             labore et dolore</p>
@@ -32,7 +32,7 @@
 
 
                         </div>
-                        <div class="shadow_card py-3 px-2 mt-lg-0 mt-3">
+                        <div class="shadow_card py-3 px-2 mt-lg-0 mt-3 primary_border site_rading">
                             <div class="text-center ">
                                 <img class="img-fluid " src="assets/icons/siterating.svg" alt="siterating">
                                 <img class="img-fluid my-4" src="assets/icons/sitejabber.svg" alt="sitejabber">

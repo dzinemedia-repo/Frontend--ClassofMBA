@@ -204,6 +204,10 @@
     }
 }
 
+.primary_border {
+    border: 1px solid $primary_shade;
+}
+
 .step_count {
     color: #E2E2E2;
     font-size: 40px;

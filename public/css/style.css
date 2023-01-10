@@ -477,6 +477,10 @@
   font-size: 12px;
 }
 
+.primary_border {
+  border: 1px solid #1B4541;
+}
+
 .step_count {
   color: #E2E2E2;
   font-size: 40px;
@@ -968,6 +972,21 @@ textarea {
   top: 0;
   left: 0;
   height: 100%;
+}
+
+.site_rading {
+  position: relative;
+}
+.site_rading::before {
+  content: url();
+  width: 19px;
+  height: 19px;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, -18, 63);
+  border: 1px solid var(--unnamed-color-1b4541);
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid;
+  border-color: transparent transparent #1B4541 #1B4541;
+  position: absolute;
 }
 
 .honor {

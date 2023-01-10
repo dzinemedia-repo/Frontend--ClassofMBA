@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <section class="py-60 hero_banner">
+    <section class="py-60 pb-100 py-mobile hero_banner">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 text-center mx-auto">
